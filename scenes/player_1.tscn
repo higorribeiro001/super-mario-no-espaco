@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://xt5ypbf4luy3"]
+
+[ext_resource type="Script" path="res://scripts/player_1.gd" id="1_roa7p"]
+[ext_resource type="Texture2D" uid="uid://c0j8gpnk2x5h0" path="res://resources/enemy/PNG_Parts&Spriter_Animation/Ship6/Ship6.png" id="1_y0rmf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_12obw"]
+atlas = ExtResource("1_y0rmf")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tsdgd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_12obw")
+}],
+"loop": true,
+"name": &"nave",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_te73t"]
+size = Vector2(108, 55)
+
+[node name="player" type="CharacterBody2D"]
+script = ExtResource("1_roa7p")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_tsdgd")
+animation = &"nave"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1.5)
+shape = SubResource("RectangleShape2D_te73t")
+
+[node name="remote" type="RemoteTransform2D" parent="."]
