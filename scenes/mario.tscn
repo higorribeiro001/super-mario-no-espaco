@@ -99,3 +99,5 @@ shape = SubResource("RectangleShape2D_5jkjx")
 
 [node name="jump_mario" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("4_3bren")
+
+[node name="camera" type="Camera2D" parent="."]

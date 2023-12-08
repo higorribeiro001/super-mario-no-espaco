@@ -1,5 +1,7 @@
+res://scenes/ship_luigi.tscn
 res://scenes/cena_1.tscn
 res://scenes/pista1.tscn
 res://scenes/player_1.tscn
 res://scenes/ship_mario.tscn
-res://scripts/player_1.gd
+res://scenes/mario.tscn
+res://scenes/luigi.tscn

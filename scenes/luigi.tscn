@@ -1,0 +1,88 @@
+[gd_scene load_steps=14 format=3 uid="uid://ddjxpyea63c3d"]
+
+[ext_resource type="Script" path="res://scripts/luigi.gd" id="1_hhsis"]
+[ext_resource type="Texture2D" uid="uid://mlgewca4udsg" path="res://resources/sprites_luigi/luigi_idle.png" id="1_mqhau"]
+[ext_resource type="Texture2D" uid="uid://dkkdbdo84f8l6" path="res://resources/sprites_luigi/luigi_jumping.png" id="2_hhgyx"]
+[ext_resource type="AudioStream" uid="uid://ddy1nx1rjx36c" path="res://resources/songs/jump_mario.mp3" id="3_j1e5p"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrdgt"]
+atlas = ExtResource("1_mqhau")
+region = Rect2(0, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bhiyd"]
+atlas = ExtResource("2_hhgyx")
+region = Rect2(0, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k8sac"]
+atlas = ExtResource("2_hhgyx")
+region = Rect2(34, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1mvsh"]
+atlas = ExtResource("2_hhgyx")
+region = Rect2(0, 26, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fsy3c"]
+atlas = ExtResource("2_hhgyx")
+region = Rect2(34, 26, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5kxv2"]
+atlas = ExtResource("2_hhgyx")
+region = Rect2(0, 52, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sk2ck"]
+atlas = ExtResource("2_hhgyx")
+region = Rect2(34, 52, 34, 26)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i6g6y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nrdgt")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bhiyd")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_k8sac")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_1mvsh")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_fsy3c")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_5kxv2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sk2ck")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6hg2v"]
+size = Vector2(15, 22)
+
+[node name="luigi" type="CharacterBody2D"]
+script = ExtResource("1_hhsis")
+
+[node name="anima_luigi" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_i6g6y")
+animation = &"jump"
+
+[node name="collision" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_6hg2v")
+
+[node name="jump_mario" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_j1e5p")
+
+[node name="camera" type="Camera2D" parent="."]

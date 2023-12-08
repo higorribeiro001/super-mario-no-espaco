@@ -1,0 +1,138 @@
+[gd_scene load_steps=22 format=3 uid="uid://cnhks1oldsscy"]
+
+[ext_resource type="Texture2D" uid="uid://dxn204t7wfx76" path="res://resources/sprites_mario/mario_iddle.png" id="1_l0mkh"]
+[ext_resource type="Script" path="res://scripts/ship_luigi.gd" id="1_mo2dj"]
+[ext_resource type="Texture2D" uid="uid://4ts0fxhqx02e" path="res://resources/sprites_luigi/ship_luide_iddle.png" id="2_q7awm"]
+[ext_resource type="AudioStream" uid="uid://m3ofn7lbgbnp" path="res://resources/songs/nave.mp3" id="3_iwapk"]
+[ext_resource type="Texture2D" uid="uid://cibycql1vcyh4" path="res://resources/sprites_luigi/ship_luigi_piloting.png" id="3_jkghi"]
+[ext_resource type="AudioStream" uid="uid://d0s7f8kkvkx0h" path="res://resources/songs/nave_running.wav" id="4_35itl"]
+[ext_resource type="Script" path="res://scripts/anim_luigi.gd" id="4_fyd12"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rt8pa"]
+size = Vector2(826, 314)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hdpmr"]
+atlas = ExtResource("2_q7awm")
+region = Rect2(0, 0, 984, 352)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6pdt3"]
+atlas = ExtResource("2_q7awm")
+region = Rect2(0, 352, 984, 352)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i0h15"]
+atlas = ExtResource("2_q7awm")
+region = Rect2(0, 704, 984, 352)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7k1nw"]
+atlas = ExtResource("2_q7awm")
+region = Rect2(0, 1056, 984, 352)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qteuc"]
+atlas = ExtResource("2_q7awm")
+region = Rect2(0, 1408, 984, 352)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3gi5b"]
+atlas = ExtResource("2_q7awm")
+region = Rect2(0, 1760, 984, 352)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_20dw1"]
+atlas = ExtResource("3_jkghi")
+region = Rect2(0, 0, 984, 352)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gl5f4"]
+atlas = ExtResource("3_jkghi")
+region = Rect2(0, 352, 984, 352)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6q1s2"]
+atlas = ExtResource("3_jkghi")
+region = Rect2(0, 704, 984, 352)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ubidp"]
+atlas = ExtResource("3_jkghi")
+region = Rect2(0, 1056, 984, 352)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2vxd3"]
+atlas = ExtResource("3_jkghi")
+region = Rect2(0, 1408, 984, 352)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_onxbv"]
+atlas = ExtResource("3_jkghi")
+region = Rect2(0, 1760, 984, 352)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_us324"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hdpmr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6pdt3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i0h15")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7k1nw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qteuc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3gi5b")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_20dw1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gl5f4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6q1s2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ubidp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2vxd3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_onxbv")
+}],
+"loop": true,
+"name": &"piloting",
+"speed": 10.0
+}]
+
+[node name="ship_luigi" type="CharacterBody2D"]
+script = ExtResource("1_mo2dj")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 2
+texture = ExtResource("1_l0mkh")
+
+[node name="collision" type="CollisionShape2D" parent="."]
+position = Vector2(55, 1)
+shape = SubResource("RectangleShape2D_rt8pa")
+
+[node name="anim" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_us324")
+animation = &"piloting"
+script = ExtResource("4_fyd12")
+
+[node name="song_ship" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_iwapk")
+
+[node name="ship_running" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_35itl")
+
+[node name="remote" type="RemoteTransform2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(27.0586, -4.50974)
+scale = Vector2(-10.1631, 0.732601)
