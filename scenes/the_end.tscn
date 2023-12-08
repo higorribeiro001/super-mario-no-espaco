@@ -1,0 +1,48 @@
+[gd_scene load_steps=4 format=3 uid="uid://dyprt4dphh7gi"]
+
+[ext_resource type="Script" path="res://scripts/the_end.gd" id="1_f0s22"]
+[ext_resource type="Texture2D" uid="uid://bo6bmdoa7wenj" path="res://resources/Animated/Strip And GIF/space6_4-frames.png" id="1_moxca"]
+[ext_resource type="AudioStream" uid="uid://cwsqd2o3id61p" path="res://resources/songs/game_over.mp3" id="3_nhsde"]
+
+[node name="the_end" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_f0s22")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 2
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(9.83019, 5.72727)
+texture = ExtResource("1_moxca")
+
+[node name="Label" type="Label" parent="."]
+texture_filter = 2
+layout_mode = 0
+offset_left = 204.0
+offset_top = 40.0
+offset_right = 431.0
+offset_bottom = 98.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/shadow_outline_size = 0
+theme_override_font_sizes/font_size = 42
+text = "Game Over"
+
+[node name="song_game_over" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_nhsde")
+
+[node name="menu" type="Button" parent="."]
+layout_mode = 0
+offset_left = 240.0
+offset_top = 120.0
+offset_right = 364.0
+offset_bottom = 151.0
+scale = Vector2(1.21887, 1.35543)
+text = "Menu Principal"

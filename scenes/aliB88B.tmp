@@ -1,0 +1,82 @@
+[gd_scene load_steps=13 format=3 uid="uid://11la503v53w4"]
+
+[ext_resource type="Texture2D" uid="uid://b1osjfvvo0wj6" path="res://resources/kenney_alien-ufo-pack/alien_idle.png" id="1_3r8nj"]
+[ext_resource type="Script" path="res://scripts/alien.gd" id="1_utsf0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rivms"]
+atlas = ExtResource("1_3r8nj")
+region = Rect2(130, 0, 130, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6xuj5"]
+atlas = ExtResource("1_3r8nj")
+region = Rect2(260, 0, 130, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_24ypl"]
+atlas = ExtResource("1_3r8nj")
+region = Rect2(0, 130, 130, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rwwoj"]
+atlas = ExtResource("1_3r8nj")
+region = Rect2(0, 0, 130, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0kkwn"]
+atlas = ExtResource("1_3r8nj")
+region = Rect2(130, 130, 130, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_if27c"]
+atlas = ExtResource("1_3r8nj")
+region = Rect2(260, 130, 130, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vhif8"]
+atlas = ExtResource("1_3r8nj")
+region = Rect2(0, 260, 130, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e5e35"]
+atlas = ExtResource("1_3r8nj")
+region = Rect2(130, 260, 130, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ar87c"]
+atlas = ExtResource("1_3r8nj")
+region = Rect2(260, 260, 130, 130)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ip8oh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rivms")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6xuj5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_24ypl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rwwoj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0kkwn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_if27c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vhif8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e5e35")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ar87c")
+}],
+"loop": true,
+"name": &"moving",
+"speed": 5.0
+}]
+
+[node name="alien" type="CharacterBody2D"]
+script = ExtResource("1_utsf0")
+
+[node name="anime_alien" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ip8oh")
+animation = &"moving"

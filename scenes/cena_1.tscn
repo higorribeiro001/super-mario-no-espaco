@@ -384,5 +384,5 @@ position = Vector2(5133, 112)
 shape = SubResource("RectangleShape2D_dtwgy")
 
 [node name="ship_mario" parent="." instance=ExtResource("14_477sx")]
-position = Vector2(92, 118)
-scale = Vector2(0.16949, 0.16949)
+position = Vector2(85, 116)
+scale = Vector2(0.123447, 0.123447)

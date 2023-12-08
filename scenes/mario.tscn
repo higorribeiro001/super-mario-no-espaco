@@ -101,3 +101,4 @@ shape = SubResource("RectangleShape2D_5jkjx")
 stream = ExtResource("4_3bren")
 
 [node name="camera" type="Camera2D" parent="."]
+position = Vector2(0, -68)
