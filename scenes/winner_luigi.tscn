@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=3 uid="uid://iajcspvpk3kr"]
+
+[ext_resource type="Script" path="res://scripts/winner.gd" id="1_0hdl8"]
+[ext_resource type="Texture2D" uid="uid://bo6bmdoa7wenj" path="res://resources/Animated/Strip And GIF/space6_4-frames.png" id="1_xxc0c"]
+
+[node name="winner" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0hdl8")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 2
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(3.59533, 3.59533)
+texture = ExtResource("1_xxc0c")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 259.0
+offset_top = 41.0
+offset_right = 356.0
+offset_bottom = 68.0
+theme_override_font_sizes/font_size = 19
+text = "Parabéns!!"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 129.0
+offset_top = 87.0
+offset_right = 506.0
+offset_bottom = 111.0
+theme_override_font_sizes/font_size = 17
+text = "Você conseguiu levar o Luigi de volta a Terra."
+
+[node name="menu" type="Button" parent="."]
+layout_mode = 0
+offset_left = 239.0
+offset_top = 132.0
+offset_right = 363.0
+offset_bottom = 163.0
+scale = Vector2(1.21887, 1.35543)
+text = "Menu Principal"
+
+[connection signal="pressed" from="menu" to="." method="_on_menu_pressed"]

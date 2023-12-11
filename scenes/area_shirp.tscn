@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://b87aia77thlak"]
+
+[ext_resource type="Texture2D" uid="uid://cml2ygqh2o3h0" path="res://resources/sprites_mario/pngegg.png" id="1_8pnyc"]
+[ext_resource type="Script" path="res://scripts/area_shirp.gd" id="1_88gc3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cy6jd"]
+size = Vector2(133, 53)
+
+[node name="area_shirp" type="Area2D"]
+script = ExtResource("1_88gc3")
+
+[node name="shirp" type="Sprite2D" parent="."]
+scale = Vector2(0.174965, 0.174965)
+texture = ExtResource("1_8pnyc")
+
+[node name="collision" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_cy6jd")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

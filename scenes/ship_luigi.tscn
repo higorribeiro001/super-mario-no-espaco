@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://cnhks1oldsscy"]
+[gd_scene load_steps=21 format=3 uid="uid://cnhks1oldsscy"]
 
 [ext_resource type="Texture2D" uid="uid://dxn204t7wfx76" path="res://resources/sprites_mario/mario_iddle.png" id="1_l0mkh"]
 [ext_resource type="Script" path="res://scripts/ship_luigi.gd" id="1_mo2dj"]
@@ -6,7 +6,6 @@
 [ext_resource type="AudioStream" uid="uid://m3ofn7lbgbnp" path="res://resources/songs/nave.mp3" id="3_iwapk"]
 [ext_resource type="Texture2D" uid="uid://cibycql1vcyh4" path="res://resources/sprites_luigi/ship_luigi_piloting.png" id="3_jkghi"]
 [ext_resource type="AudioStream" uid="uid://d0s7f8kkvkx0h" path="res://resources/songs/nave_running.wav" id="4_35itl"]
-[ext_resource type="Script" path="res://scripts/anim_luigi.gd" id="4_fyd12"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rt8pa"]
 size = Vector2(826, 314)
@@ -123,7 +122,6 @@ shape = SubResource("RectangleShape2D_rt8pa")
 [node name="anim" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_us324")
 animation = &"piloting"
-script = ExtResource("4_fyd12")
 
 [node name="song_ship" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_iwapk")

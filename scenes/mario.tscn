@@ -1,9 +1,10 @@
-[gd_scene load_steps=16 format=3 uid="uid://cef7gcw3oghnv"]
+[gd_scene load_steps=17 format=3 uid="uid://cef7gcw3oghnv"]
 
 [ext_resource type="Texture2D" uid="uid://c62ev6db4p6f4" path="res://resources/sprites_mario/sprites_mario1.png" id="1_3l1yd"]
 [ext_resource type="Script" path="res://scripts/mario.gd" id="1_njas1"]
 [ext_resource type="Texture2D" uid="uid://b61safcvx7jod" path="res://resources/sprites_mario/mario_jumping.png" id="2_bqnr1"]
 [ext_resource type="AudioStream" uid="uid://ddy1nx1rjx36c" path="res://resources/songs/jump_mario.mp3" id="4_3bren"]
+[ext_resource type="Texture2D" uid="uid://b6agku6ckno8b" path="res://resources/Mini FX, Items & UI/Common Pick-ups/Coin2.png" id="5_f6i0y"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bmotd"]
 atlas = ExtResource("1_3l1yd")
@@ -81,7 +82,7 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_5jkjx"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wwa08"]
 size = Vector2(15, 22)
 
 [node name="mario" type="CharacterBody2D"]
@@ -93,12 +94,34 @@ sprite_frames = SubResource("SpriteFrames_f7fo4")
 animation = &"jump"
 frame_progress = 0.635351
 
-[node name="collision" type="CollisionShape2D" parent="."]
-position = Vector2(0.5, 0)
-shape = SubResource("RectangleShape2D_5jkjx")
-
 [node name="jump_mario" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("4_3bren")
 
 [node name="camera" type="Camera2D" parent="."]
 position = Vector2(0, -68)
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_wwa08")
+
+[node name="name" type="Label" parent="."]
+offset_left = -11.0
+offset_top = -35.0
+offset_right = 35.0
+offset_bottom = -12.0
+scale = Vector2(0.535894, 0.535894)
+text = "Mario
+"
+
+[node name="coins" type="Label" parent="."]
+offset_left = 1.0
+offset_top = -24.0
+offset_right = 41.0
+offset_bottom = -1.0
+scale = Vector2(0.518193, 0.518193)
+text = "0"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-6, -18)
+scale = Vector2(-0.571714, -0.571714)
+texture = ExtResource("5_f6i0y")

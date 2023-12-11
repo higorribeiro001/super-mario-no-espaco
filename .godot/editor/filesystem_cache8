@@ -1,8 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1702040367
-icon.svg::CompressedTexture2D::3673523482427342182::1701997555::1701997598::1::::<><>::
+::res://::1702318714
+export_presets.cfg::TextFile::-1::1702318512::0::1::::<><>::
+icon.svg::CompressedTexture2D::3673523482427342182::1702316398::1702316403::1::::<><>::
+networking.gd::GDScript::-1::1702222941::0::1::::<>Node<>::
 README.md::TextFile::-1::1701997555::0::1::::<><>::
-::res://resources/::1702045054
+::res://resources/::1702269559
 ::res://resources/Animated/::1701997555
 ::res://resources/Animated/Strip And GIF/::1701997555
 space1_4-frames.png::CompressedTexture2D::5576998145688704630::1701997555::1701997555::1::::<><>::
@@ -16,6 +18,9 @@ space8_4-frames.png::CompressedTexture2D::5491079815640362372::1701997555::17019
 space9_4-frames.png::CompressedTexture2D::370770022833245867::1701997555::1701997555::1::::<><>::
 ::res://resources/Animated/Strip And GIF/GIF_2FPS/::1701997555
 ::res://resources/Animated/Strip And GIF/GIF_4FPS/::1701997555
+::res://resources/background_mars/::1702269563
+backeground_mars.png::CompressedTexture2D::4597629193548456769::1702266411::1702266553::1::::<><>::
+base.png::CompressedTexture2D::2410379361699095937::1702266785::1702269563::1::::<><>::
 ::res://resources/CelestialObjects/::1701997555
 CelestialObjects.png::CompressedTexture2D::7688514936731734342::1701997555::1701997555::1::::<><>::
 readme.txt::TextFile::-1::1701997555::0::1::::<><>::
@@ -619,9 +624,10 @@ shot6_exp8.png::CompressedTexture2D::2038522860337977196::1701997556::1701997556
 shot6_exp9.png::CompressedTexture2D::5531693146383623047::1701997556::1701997556::1::::<><>::
 shot6_exp10.png::CompressedTexture2D::3452277377237128797::1701997556::1701997556::1::::<><>::
 ::res://resources/enemy/PSD/::1701997556
-::res://resources/kenney_alien-ufo-pack/::1702045800
+::res://resources/kenney_alien-ufo-pack/::1702266797
 alien_idle.png::CompressedTexture2D::2655807960454200072::1702045796::1702045800::1::::<><>::
 alien_laser.png::CompressedTexture2D::5322886117226110053::1702045618::1702045800::1::::<><>::
+base.png::CompressedTexture2D::3887101244321901546::1702266737::1702266797::1::::<><>::
 laserBlue6.png::CompressedTexture2D::7645259292397414717::1702040308::1702045192::1::::<><>::
 License.txt::TextFile::-1::1702040308::0::1::::<><>::
 Preview.png::CompressedTexture2D::3508739132570281554::1702040308::1702045192::1::::<><>::
@@ -680,6 +686,634 @@ spritesheet_spaceships.png::CompressedTexture2D::1367218249793397801::1702040309
 spritesheet_spaceships.xml::TextFile::-1::1702040309::0::1::::<><>::
 ::res://resources/kenney_alien-ufo-pack/Vector/::1702045192
 vector_spaceships.svg::CompressedTexture2D::3487514561722651071::1702040308::1702045192::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/::1702261901
+License.txt::TextFile::-1::1702261847::0::1::::<><>::
+Preview.png::CompressedTexture2D::6003488379947471103::1702261847::1702261901::1::::<><>::
+Preview_KenneyNL.png::CompressedTexture2D::8344687981160552432::1702261847::1702261901::1::::<><>::
+Sample.png::CompressedTexture2D::180220722138260710::1702261847::1702261901::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/::1702261854
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/::1702261854
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Astronauts/::1702261903
+spaceAstronauts_001.png::CompressedTexture2D::6362279232988973530::1702261847::1702261903::1::::<><>::
+spaceAstronauts_002.png::CompressedTexture2D::1698641560596526250::1702261847::1702261903::1::::<><>::
+spaceAstronauts_003.png::CompressedTexture2D::6865623932174647930::1702261847::1702261903::1::::<><>::
+spaceAstronauts_004.png::CompressedTexture2D::3734797542412795844::1702261847::1702261903::1::::<><>::
+spaceAstronauts_005.png::CompressedTexture2D::3539441832234178822::1702261847::1702261903::1::::<><>::
+spaceAstronauts_006.png::CompressedTexture2D::5636232739121861527::1702261847::1702261903::1::::<><>::
+spaceAstronauts_007.png::CompressedTexture2D::6098869236329418290::1702261847::1702261903::1::::<><>::
+spaceAstronauts_008.png::CompressedTexture2D::2197088049386370240::1702261847::1702261903::1::::<><>::
+spaceAstronauts_009.png::CompressedTexture2D::2518121260130751524::1702261847::1702261903::1::::<><>::
+spaceAstronauts_010.png::CompressedTexture2D::7263725269329295808::1702261847::1702261903::1::::<><>::
+spaceAstronauts_011.png::CompressedTexture2D::6706312014266785191::1702261847::1702261903::1::::<><>::
+spaceAstronauts_012.png::CompressedTexture2D::149182724731551129::1702261847::1702261903::1::::<><>::
+spaceAstronauts_013.png::CompressedTexture2D::9014820025015506993::1702261847::1702261903::1::::<><>::
+spaceAstronauts_014.png::CompressedTexture2D::1527622124835748304::1702261847::1702261903::1::::<><>::
+spaceAstronauts_015.png::CompressedTexture2D::3695887470344150581::1702261847::1702261903::1::::<><>::
+spaceAstronauts_016.png::CompressedTexture2D::1772450462670977961::1702261847::1702261903::1::::<><>::
+spaceAstronauts_017.png::CompressedTexture2D::7303537455778692041::1702261847::1702261903::1::::<><>::
+spaceAstronauts_018.png::CompressedTexture2D::4000341869890272671::1702261847::1702261903::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Building/::1702261904
+spaceBuilding_001.png::CompressedTexture2D::5555014621143329284::1702261847::1702261903::1::::<><>::
+spaceBuilding_002.png::CompressedTexture2D::5274190042993756054::1702261847::1702261903::1::::<><>::
+spaceBuilding_003.png::CompressedTexture2D::758895911269676489::1702261847::1702261903::1::::<><>::
+spaceBuilding_004.png::CompressedTexture2D::77886487267635750::1702261848::1702261903::1::::<><>::
+spaceBuilding_005.png::CompressedTexture2D::480339590671432792::1702261848::1702261903::1::::<><>::
+spaceBuilding_006.png::CompressedTexture2D::6342072406143379476::1702261848::1702261903::1::::<><>::
+spaceBuilding_007.png::CompressedTexture2D::8426640291527316578::1702261848::1702261903::1::::<><>::
+spaceBuilding_008.png::CompressedTexture2D::3557517764369063394::1702261848::1702261903::1::::<><>::
+spaceBuilding_009.png::CompressedTexture2D::2226237597670387691::1702261848::1702261903::1::::<><>::
+spaceBuilding_010.png::CompressedTexture2D::7088710429441475798::1702261848::1702261903::1::::<><>::
+spaceBuilding_011.png::CompressedTexture2D::7432503455774119883::1702261848::1702261903::1::::<><>::
+spaceBuilding_012.png::CompressedTexture2D::7395252829980720158::1702261848::1702261903::1::::<><>::
+spaceBuilding_013.png::CompressedTexture2D::1651461647216639668::1702261848::1702261903::1::::<><>::
+spaceBuilding_014.png::CompressedTexture2D::403786511349681922::1702261848::1702261903::1::::<><>::
+spaceBuilding_015.png::CompressedTexture2D::798795331662032895::1702261848::1702261903::1::::<><>::
+spaceBuilding_016.png::CompressedTexture2D::1021820204443685902::1702261848::1702261903::1::::<><>::
+spaceBuilding_017.png::CompressedTexture2D::5541465188366655517::1702261848::1702261903::1::::<><>::
+spaceBuilding_018.png::CompressedTexture2D::841801411763846837::1702261848::1702261904::1::::<><>::
+spaceBuilding_019.png::CompressedTexture2D::6985175030112593320::1702261848::1702261904::1::::<><>::
+spaceBuilding_020.png::CompressedTexture2D::8800657688439913310::1702261848::1702261904::1::::<><>::
+spaceBuilding_021.png::CompressedTexture2D::7447742132457955385::1702261848::1702261904::1::::<><>::
+spaceBuilding_022.png::CompressedTexture2D::2352409379932085652::1702261848::1702261904::1::::<><>::
+spaceBuilding_023.png::CompressedTexture2D::3581966684139944020::1702261848::1702261904::1::::<><>::
+spaceBuilding_024.png::CompressedTexture2D::1982419898494063834::1702261848::1702261904::1::::<><>::
+spaceBuilding_025.png::CompressedTexture2D::6874720106814567051::1702261848::1702261904::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Effects/::1702261904
+spaceEffects_001.png::CompressedTexture2D::1000672418689255058::1702261848::1702261904::1::::<><>::
+spaceEffects_002.png::CompressedTexture2D::524484254844684349::1702261848::1702261904::1::::<><>::
+spaceEffects_003.png::CompressedTexture2D::5086130313671874688::1702261848::1702261904::1::::<><>::
+spaceEffects_004.png::CompressedTexture2D::941989021534405576::1702261848::1702261904::1::::<><>::
+spaceEffects_005.png::CompressedTexture2D::4012936261007906633::1702261848::1702261904::1::::<><>::
+spaceEffects_006.png::CompressedTexture2D::3878683868073997271::1702261848::1702261904::1::::<><>::
+spaceEffects_007.png::CompressedTexture2D::4712600646053428475::1702261848::1702261904::1::::<><>::
+spaceEffects_008.png::CompressedTexture2D::5879062200419147347::1702261848::1702261904::1::::<><>::
+spaceEffects_009.png::CompressedTexture2D::661702250233183770::1702261848::1702261904::1::::<><>::
+spaceEffects_010.png::CompressedTexture2D::4608671382564703320::1702261848::1702261904::1::::<><>::
+spaceEffects_011.png::CompressedTexture2D::6357014843266950573::1702261848::1702261903::1::::<><>::
+spaceEffects_012.png::CompressedTexture2D::2492263015643662877::1702261848::1702261903::1::::<><>::
+spaceEffects_013.png::CompressedTexture2D::4459602407899490008::1702261848::1702261903::1::::<><>::
+spaceEffects_014.png::CompressedTexture2D::7756305025424298016::1702261848::1702261903::1::::<><>::
+spaceEffects_015.png::CompressedTexture2D::6028708058020415195::1702261849::1702261903::1::::<><>::
+spaceEffects_016.png::CompressedTexture2D::1602056659872265802::1702261849::1702261904::1::::<><>::
+spaceEffects_017.png::CompressedTexture2D::1908998506601920286::1702261849::1702261904::1::::<><>::
+spaceEffects_018.png::CompressedTexture2D::1070882909386828788::1702261849::1702261904::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Meteors/::1702261904
+spaceMeteors_001.png::CompressedTexture2D::8096818523576025496::1702261849::1702261904::1::::<><>::
+spaceMeteors_002.png::CompressedTexture2D::662856882118976065::1702261849::1702261904::1::::<><>::
+spaceMeteors_003.png::CompressedTexture2D::1755136671301119750::1702261849::1702261904::1::::<><>::
+spaceMeteors_004.png::CompressedTexture2D::7255632957527485126::1702261849::1702261904::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Missiles/::1702261904
+spaceMissiles_001.png::CompressedTexture2D::8305287845521765389::1702261849::1702261904::1::::<><>::
+spaceMissiles_002.png::CompressedTexture2D::1974206298527277875::1702261849::1702261904::1::::<><>::
+spaceMissiles_003.png::CompressedTexture2D::2420331118797807112::1702261849::1702261904::1::::<><>::
+spaceMissiles_004.png::CompressedTexture2D::8925907589457939896::1702261849::1702261904::1::::<><>::
+spaceMissiles_005.png::CompressedTexture2D::8878886358769180299::1702261849::1702261904::1::::<><>::
+spaceMissiles_006.png::CompressedTexture2D::8386334778200983268::1702261849::1702261902::1::::<><>::
+spaceMissiles_007.png::CompressedTexture2D::7775881908481512698::1702261849::1702261902::1::::<><>::
+spaceMissiles_008.png::CompressedTexture2D::1832578591997624160::1702261849::1702261902::1::::<><>::
+spaceMissiles_009.png::CompressedTexture2D::7450077427460127678::1702261849::1702261902::1::::<><>::
+spaceMissiles_010.png::CompressedTexture2D::6717097303489975207::1702261849::1702261902::1::::<><>::
+spaceMissiles_011.png::CompressedTexture2D::1133653306652929423::1702261849::1702261902::1::::<><>::
+spaceMissiles_012.png::CompressedTexture2D::8994889536986210694::1702261849::1702261902::1::::<><>::
+spaceMissiles_013.png::CompressedTexture2D::3529365070156553246::1702261849::1702261902::1::::<><>::
+spaceMissiles_014.png::CompressedTexture2D::309400811475505062::1702261849::1702261902::1::::<><>::
+spaceMissiles_015.png::CompressedTexture2D::6076158427880882899::1702261849::1702261902::1::::<><>::
+spaceMissiles_016.png::CompressedTexture2D::823426859200498900::1702261849::1702261902::1::::<><>::
+spaceMissiles_017.png::CompressedTexture2D::4909991521638477737::1702261849::1702261902::1::::<><>::
+spaceMissiles_018.png::CompressedTexture2D::2653919491614334839::1702261849::1702261902::1::::<><>::
+spaceMissiles_019.png::CompressedTexture2D::6881233085715221358::1702261849::1702261902::1::::<><>::
+spaceMissiles_020.png::CompressedTexture2D::4988671142410215118::1702261849::1702261903::1::::<><>::
+spaceMissiles_021.png::CompressedTexture2D::6736036401184927950::1702261849::1702261903::1::::<><>::
+spaceMissiles_022.png::CompressedTexture2D::8566779765711130319::1702261849::1702261903::1::::<><>::
+spaceMissiles_023.png::CompressedTexture2D::7329051997170519181::1702261849::1702261903::1::::<><>::
+spaceMissiles_024.png::CompressedTexture2D::237249701415343121::1702261849::1702261902::1::::<><>::
+spaceMissiles_025.png::CompressedTexture2D::117732406269635788::1702261849::1702261902::1::::<><>::
+spaceMissiles_026.png::CompressedTexture2D::8970003109003728572::1702261849::1702261902::1::::<><>::
+spaceMissiles_027.png::CompressedTexture2D::1003482834684551533::1702261849::1702261902::1::::<><>::
+spaceMissiles_028.png::CompressedTexture2D::2719527979589002139::1702261849::1702261902::1::::<><>::
+spaceMissiles_029.png::CompressedTexture2D::182766266448664454::1702261850::1702261902::1::::<><>::
+spaceMissiles_030.png::CompressedTexture2D::4743811074400207177::1702261850::1702261902::1::::<><>::
+spaceMissiles_031.png::CompressedTexture2D::113987475736110548::1702261850::1702261902::1::::<><>::
+spaceMissiles_032.png::CompressedTexture2D::9084814625931789004::1702261850::1702261902::1::::<><>::
+spaceMissiles_033.png::CompressedTexture2D::7141160892703721201::1702261850::1702261902::1::::<><>::
+spaceMissiles_034.png::CompressedTexture2D::2707141711275314118::1702261850::1702261902::1::::<><>::
+spaceMissiles_035.png::CompressedTexture2D::2805633749902159613::1702261850::1702261902::1::::<><>::
+spaceMissiles_036.png::CompressedTexture2D::1721892905820070558::1702261850::1702261902::1::::<><>::
+spaceMissiles_037.png::CompressedTexture2D::398558428448034547::1702261850::1702261902::1::::<><>::
+spaceMissiles_038.png::CompressedTexture2D::9042655165341814940::1702261850::1702261902::1::::<><>::
+spaceMissiles_039.png::CompressedTexture2D::1767067545938747440::1702261850::1702261902::1::::<><>::
+spaceMissiles_040.png::CompressedTexture2D::3067899499219945434::1702261850::1702261902::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Parts/::1702261905
+spaceParts_001.png::CompressedTexture2D::303192654056987786::1702261850::1702261903::1::::<><>::
+spaceParts_002.png::CompressedTexture2D::2623208547344455304::1702261850::1702261903::1::::<><>::
+spaceParts_003.png::CompressedTexture2D::7622288675834329350::1702261850::1702261903::1::::<><>::
+spaceParts_004.png::CompressedTexture2D::3237646386407140241::1702261850::1702261903::1::::<><>::
+spaceParts_005.png::CompressedTexture2D::4840286175866839766::1702261850::1702261903::1::::<><>::
+spaceParts_006.png::CompressedTexture2D::7989932032776099862::1702261850::1702261903::1::::<><>::
+spaceParts_007.png::CompressedTexture2D::1845342161771948363::1702261850::1702261903::1::::<><>::
+spaceParts_008.png::CompressedTexture2D::2403297357641958223::1702261850::1702261903::1::::<><>::
+spaceParts_009.png::CompressedTexture2D::7953368793522846063::1702261850::1702261903::1::::<><>::
+spaceParts_010.png::CompressedTexture2D::6319184449630020216::1702261850::1702261903::1::::<><>::
+spaceParts_011.png::CompressedTexture2D::8645314928144469988::1702261850::1702261903::1::::<><>::
+spaceParts_012.png::CompressedTexture2D::7009787990948396072::1702261850::1702261903::1::::<><>::
+spaceParts_013.png::CompressedTexture2D::5687521354055553246::1702261850::1702261903::1::::<><>::
+spaceParts_014.png::CompressedTexture2D::6837931731071700848::1702261850::1702261903::1::::<><>::
+spaceParts_015.png::CompressedTexture2D::6879588379410945087::1702261850::1702261903::1::::<><>::
+spaceParts_016.png::CompressedTexture2D::8914153438555740632::1702261850::1702261903::1::::<><>::
+spaceParts_017.png::CompressedTexture2D::3408790765383584883::1702261850::1702261903::1::::<><>::
+spaceParts_018.png::CompressedTexture2D::2349562487839429078::1702261850::1702261903::1::::<><>::
+spaceParts_019.png::CompressedTexture2D::4297176585061221905::1702261850::1702261903::1::::<><>::
+spaceParts_020.png::CompressedTexture2D::8250209564840719189::1702261850::1702261903::1::::<><>::
+spaceParts_021.png::CompressedTexture2D::4640301229017077610::1702261850::1702261903::1::::<><>::
+spaceParts_022.png::CompressedTexture2D::6615218878416833649::1702261850::1702261903::1::::<><>::
+spaceParts_023.png::CompressedTexture2D::1392303115399624885::1702261850::1702261903::1::::<><>::
+spaceParts_024.png::CompressedTexture2D::1979894158430795783::1702261850::1702261903::1::::<><>::
+spaceParts_025.png::CompressedTexture2D::772564584972433112::1702261851::1702261903::1::::<><>::
+spaceParts_026.png::CompressedTexture2D::5329482507392645627::1702261851::1702261903::1::::<><>::
+spaceParts_027.png::CompressedTexture2D::3196350004426461451::1702261851::1702261903::1::::<><>::
+spaceParts_028.png::CompressedTexture2D::2390800228383039067::1702261851::1702261903::1::::<><>::
+spaceParts_029.png::CompressedTexture2D::1936013037939899032::1702261851::1702261903::1::::<><>::
+spaceParts_030.png::CompressedTexture2D::2678734973889165231::1702261851::1702261903::1::::<><>::
+spaceParts_031.png::CompressedTexture2D::8430242610576722397::1702261851::1702261903::1::::<><>::
+spaceParts_032.png::CompressedTexture2D::5049969907489727208::1702261851::1702261903::1::::<><>::
+spaceParts_033.png::CompressedTexture2D::2427850843934624069::1702261851::1702261903::1::::<><>::
+spaceParts_034.png::CompressedTexture2D::920502301903163997::1702261851::1702261903::1::::<><>::
+spaceParts_035.png::CompressedTexture2D::8936501333564520294::1702261851::1702261903::1::::<><>::
+spaceParts_036.png::CompressedTexture2D::8319764991099703545::1702261851::1702261905::1::::<><>::
+spaceParts_037.png::CompressedTexture2D::8628878769609903380::1702261851::1702261905::1::::<><>::
+spaceParts_038.png::CompressedTexture2D::3129751610306116224::1702261851::1702261905::1::::<><>::
+spaceParts_039.png::CompressedTexture2D::1318766556498487001::1702261851::1702261905::1::::<><>::
+spaceParts_040.png::CompressedTexture2D::3984303916133330132::1702261851::1702261905::1::::<><>::
+spaceParts_041.png::CompressedTexture2D::2040612775516792163::1702261851::1702261905::1::::<><>::
+spaceParts_042.png::CompressedTexture2D::6624529994768483735::1702261851::1702261905::1::::<><>::
+spaceParts_043.png::CompressedTexture2D::9094598593321107570::1702261851::1702261905::1::::<><>::
+spaceParts_044.png::CompressedTexture2D::9201169775263058887::1702261851::1702261905::1::::<><>::
+spaceParts_045.png::CompressedTexture2D::9109541025957258933::1702261851::1702261905::1::::<><>::
+spaceParts_046.png::CompressedTexture2D::8388408347541553440::1702261851::1702261905::1::::<><>::
+spaceParts_047.png::CompressedTexture2D::2168794931133007570::1702261851::1702261905::1::::<><>::
+spaceParts_048.png::CompressedTexture2D::8676031405371972983::1702261851::1702261905::1::::<><>::
+spaceParts_049.png::CompressedTexture2D::2585349401547362958::1702261851::1702261905::1::::<><>::
+spaceParts_050.png::CompressedTexture2D::4522234813274602480::1702261851::1702261905::1::::<><>::
+spaceParts_051.png::CompressedTexture2D::3248336457777140762::1702261851::1702261905::1::::<><>::
+spaceParts_052.png::CompressedTexture2D::3692284604856840381::1702261851::1702261905::1::::<><>::
+spaceParts_053.png::CompressedTexture2D::8981080004405063230::1702261851::1702261905::1::::<><>::
+spaceParts_054.png::CompressedTexture2D::3097319627867297886::1702261851::1702261905::1::::<><>::
+spaceParts_055.png::CompressedTexture2D::5364549182488534851::1702261851::1702261905::1::::<><>::
+spaceParts_056.png::CompressedTexture2D::6614443782716232715::1702261851::1702261905::1::::<><>::
+spaceParts_057.png::CompressedTexture2D::2543028666346392899::1702261851::1702261905::1::::<><>::
+spaceParts_058.png::CompressedTexture2D::375097480714799635::1702261851::1702261905::1::::<><>::
+spaceParts_059.png::CompressedTexture2D::3745045609479396946::1702261851::1702261905::1::::<><>::
+spaceParts_060.png::CompressedTexture2D::5793377024559003389::1702261851::1702261905::1::::<><>::
+spaceParts_061.png::CompressedTexture2D::6289926825962641065::1702261851::1702261905::1::::<><>::
+spaceParts_062.png::CompressedTexture2D::2567776882859757143::1702261851::1702261905::1::::<><>::
+spaceParts_063.png::CompressedTexture2D::46545881244318531::1702261852::1702261905::1::::<><>::
+spaceParts_064.png::CompressedTexture2D::2570857697308234671::1702261852::1702261905::1::::<><>::
+spaceParts_065.png::CompressedTexture2D::1267477343910442229::1702261852::1702261905::1::::<><>::
+spaceParts_066.png::CompressedTexture2D::9172488244215315869::1702261852::1702261905::1::::<><>::
+spaceParts_067.png::CompressedTexture2D::4370193119496355568::1702261852::1702261905::1::::<><>::
+spaceParts_068.png::CompressedTexture2D::1221970886632840502::1702261852::1702261905::1::::<><>::
+spaceParts_069.png::CompressedTexture2D::5153684298828271772::1702261852::1702261905::1::::<><>::
+spaceParts_070.png::CompressedTexture2D::8199699430157492158::1702261852::1702261905::1::::<><>::
+spaceParts_071.png::CompressedTexture2D::6375859187631756996::1702261852::1702261905::1::::<><>::
+spaceParts_072.png::CompressedTexture2D::3515762690934704426::1702261852::1702261905::1::::<><>::
+spaceParts_073.png::CompressedTexture2D::5721318710948129488::1702261852::1702261905::1::::<><>::
+spaceParts_074.png::CompressedTexture2D::1473809475028195686::1702261852::1702261905::1::::<><>::
+spaceParts_075.png::CompressedTexture2D::8257896948883151760::1702261852::1702261905::1::::<><>::
+spaceParts_076.png::CompressedTexture2D::3756573599788365041::1702261852::1702261905::1::::<><>::
+spaceParts_077.png::CompressedTexture2D::604057949810132566::1702261852::1702261905::1::::<><>::
+spaceParts_078.png::CompressedTexture2D::8989519730108979380::1702261852::1702261905::1::::<><>::
+spaceParts_079.png::CompressedTexture2D::5412559287858413438::1702261852::1702261905::1::::<><>::
+spaceParts_080.png::CompressedTexture2D::5047162507239716921::1702261852::1702261905::1::::<><>::
+spaceParts_081.png::CompressedTexture2D::6197187131848672398::1702261852::1702261905::1::::<><>::
+spaceParts_082.png::CompressedTexture2D::1729030889756316327::1702261852::1702261905::1::::<><>::
+spaceParts_083.png::CompressedTexture2D::2636112577711866735::1702261852::1702261905::1::::<><>::
+spaceParts_084.png::CompressedTexture2D::4121526187825606430::1702261852::1702261905::1::::<><>::
+spaceParts_085.png::CompressedTexture2D::4704674950988617254::1702261852::1702261905::1::::<><>::
+spaceParts_086.png::CompressedTexture2D::7297036173656836229::1702261852::1702261905::1::::<><>::
+spaceParts_087.png::CompressedTexture2D::8109141142610550057::1702261852::1702261905::1::::<><>::
+spaceParts_088.png::CompressedTexture2D::3556969415917852076::1702261852::1702261905::1::::<><>::
+spaceParts_089.png::CompressedTexture2D::6042388774944329161::1702261852::1702261905::1::::<><>::
+spaceParts_090.png::CompressedTexture2D::4529795889648347999::1702261852::1702261905::1::::<><>::
+spaceParts_091.png::CompressedTexture2D::1956937406694174564::1702261852::1702261905::1::::<><>::
+spaceParts_092.png::CompressedTexture2D::6173332627365021062::1702261852::1702261905::1::::<><>::
+spaceParts_093.png::CompressedTexture2D::2237582485581065007::1702261852::1702261905::1::::<><>::
+spaceParts_094.png::CompressedTexture2D::6029276587730072737::1702261852::1702261905::1::::<><>::
+spaceParts_095.png::CompressedTexture2D::5097964455624406994::1702261852::1702261905::1::::<><>::
+spaceParts_096.png::CompressedTexture2D::6160571165912334652::1702261852::1702261905::1::::<><>::
+spaceParts_097.png::CompressedTexture2D::4423275680625026763::1702261852::1702261905::1::::<><>::
+spaceParts_098.png::CompressedTexture2D::8537403484276056446::1702261852::1702261905::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Rocket parts/::1702261905
+spaceRocketParts_001.png::CompressedTexture2D::7429764931139669032::1702261852::1702261905::1::::<><>::
+spaceRocketParts_002.png::CompressedTexture2D::9109061396728774322::1702261853::1702261905::1::::<><>::
+spaceRocketParts_003.png::CompressedTexture2D::4083948920592503716::1702261853::1702261905::1::::<><>::
+spaceRocketParts_004.png::CompressedTexture2D::7751290468361744427::1702261853::1702261905::1::::<><>::
+spaceRocketParts_005.png::CompressedTexture2D::5996587538543939679::1702261853::1702261905::1::::<><>::
+spaceRocketParts_006.png::CompressedTexture2D::427795915442024238::1702261853::1702261905::1::::<><>::
+spaceRocketParts_007.png::CompressedTexture2D::2046246041687988058::1702261853::1702261905::1::::<><>::
+spaceRocketParts_008.png::CompressedTexture2D::2839293956480656453::1702261853::1702261905::1::::<><>::
+spaceRocketParts_009.png::CompressedTexture2D::8089084906662718659::1702261853::1702261904::1::::<><>::
+spaceRocketParts_010.png::CompressedTexture2D::8701363598273395694::1702261853::1702261904::1::::<><>::
+spaceRocketParts_011.png::CompressedTexture2D::7121375278024782432::1702261853::1702261904::1::::<><>::
+spaceRocketParts_012.png::CompressedTexture2D::5883617719700912816::1702261853::1702261904::1::::<><>::
+spaceRocketParts_013.png::CompressedTexture2D::1493901068075043271::1702261853::1702261904::1::::<><>::
+spaceRocketParts_014.png::CompressedTexture2D::2035349196974650986::1702261853::1702261904::1::::<><>::
+spaceRocketParts_015.png::CompressedTexture2D::5125526541152318248::1702261853::1702261904::1::::<><>::
+spaceRocketParts_016.png::CompressedTexture2D::8943578123003772831::1702261853::1702261904::1::::<><>::
+spaceRocketParts_017.png::CompressedTexture2D::3821252769942140992::1702261853::1702261904::1::::<><>::
+spaceRocketParts_018.png::CompressedTexture2D::1909237206787083530::1702261853::1702261904::1::::<><>::
+spaceRocketParts_019.png::CompressedTexture2D::4413342084276377281::1702261853::1702261904::1::::<><>::
+spaceRocketParts_020.png::CompressedTexture2D::3483220365400083011::1702261853::1702261904::1::::<><>::
+spaceRocketParts_021.png::CompressedTexture2D::7637142813794007249::1702261853::1702261904::1::::<><>::
+spaceRocketParts_022.png::CompressedTexture2D::2586068661503237759::1702261853::1702261904::1::::<><>::
+spaceRocketParts_023.png::CompressedTexture2D::1755478309526262586::1702261853::1702261904::1::::<><>::
+spaceRocketParts_024.png::CompressedTexture2D::1368563636897250849::1702261853::1702261904::1::::<><>::
+spaceRocketParts_025.png::CompressedTexture2D::7989489248843187733::1702261853::1702261904::1::::<><>::
+spaceRocketParts_026.png::CompressedTexture2D::1251926454402712288::1702261853::1702261904::1::::<><>::
+spaceRocketParts_027.png::CompressedTexture2D::6601999075035637791::1702261853::1702261904::1::::<><>::
+spaceRocketParts_028.png::CompressedTexture2D::2780715565417929750::1702261853::1702261904::1::::<><>::
+spaceRocketParts_029.png::CompressedTexture2D::3730088509742275491::1702261853::1702261904::1::::<><>::
+spaceRocketParts_030.png::CompressedTexture2D::4033166422945923681::1702261853::1702261904::1::::<><>::
+spaceRocketParts_031.png::CompressedTexture2D::1568819318519251998::1702261853::1702261904::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Rockets/::1702261904
+spaceRockets_001.png::CompressedTexture2D::3095161594387887535::1702261853::1702261904::1::::<><>::
+spaceRockets_002.png::CompressedTexture2D::3951822400726841714::1702261853::1702261904::1::::<><>::
+spaceRockets_003.png::CompressedTexture2D::3333768021193082843::1702261853::1702261904::1::::<><>::
+spaceRockets_004.png::CompressedTexture2D::8242637690807384916::1702261853::1702261904::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Ships/::1702261904
+spaceShips_001.png::CompressedTexture2D::6088186963838490904::1702261853::1702261904::1::::<><>::
+spaceShips_002.png::CompressedTexture2D::6588134181056143303::1702261853::1702261904::1::::<><>::
+spaceShips_003.png::CompressedTexture2D::1714877171810866935::1702261853::1702261904::1::::<><>::
+spaceShips_004.png::CompressedTexture2D::5625121138610541548::1702261854::1702261904::1::::<><>::
+spaceShips_005.png::CompressedTexture2D::2752266628447180771::1702261854::1702261904::1::::<><>::
+spaceShips_006.png::CompressedTexture2D::1746270229624315080::1702261854::1702261904::1::::<><>::
+spaceShips_007.png::CompressedTexture2D::1422195199902980901::1702261854::1702261904::1::::<><>::
+spaceShips_008.png::CompressedTexture2D::6727663014751352983::1702261854::1702261904::1::::<><>::
+spaceShips_009.png::CompressedTexture2D::6850477601159754178::1702261854::1702261904::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Station/::1702261905
+spaceStation_001.png::CompressedTexture2D::3221666597351661569::1702261854::1702261904::1::::<><>::
+spaceStation_002.png::CompressedTexture2D::9156178542945277861::1702261854::1702261904::1::::<><>::
+spaceStation_003.png::CompressedTexture2D::1087396801805011918::1702261854::1702261904::1::::<><>::
+spaceStation_004.png::CompressedTexture2D::7361727615545106716::1702261854::1702261905::1::::<><>::
+spaceStation_005.png::CompressedTexture2D::5017464144401986801::1702261854::1702261905::1::::<><>::
+spaceStation_006.png::CompressedTexture2D::3524870607145120608::1702261854::1702261905::1::::<><>::
+spaceStation_007.png::CompressedTexture2D::5793919779385463734::1702261854::1702261905::1::::<><>::
+spaceStation_008.png::CompressedTexture2D::4941405154565033429::1702261854::1702261905::1::::<><>::
+spaceStation_009.png::CompressedTexture2D::5810553489062932482::1702261854::1702261905::1::::<><>::
+spaceStation_010.png::CompressedTexture2D::6789591319015275178::1702261854::1702261905::1::::<><>::
+spaceStation_011.png::CompressedTexture2D::5292801368802193509::1702261854::1702261905::1::::<><>::
+spaceStation_012.png::CompressedTexture2D::123324424695440255::1702261854::1702261905::1::::<><>::
+spaceStation_013.png::CompressedTexture2D::1729208364058092037::1702261854::1702261905::1::::<><>::
+spaceStation_014.png::CompressedTexture2D::794580615268429677::1702261854::1702261905::1::::<><>::
+spaceStation_015.png::CompressedTexture2D::2163550472332868055::1702261854::1702261905::1::::<><>::
+spaceStation_016.png::CompressedTexture2D::6155763067081844151::1702261854::1702261905::1::::<><>::
+spaceStation_017.png::CompressedTexture2D::1161059783948049650::1702261854::1702261905::1::::<><>::
+spaceStation_018.png::CompressedTexture2D::7387524389710001445::1702261854::1702261904::1::::<><>::
+spaceStation_019.png::CompressedTexture2D::3320001328036394385::1702261854::1702261904::1::::<><>::
+spaceStation_020.png::CompressedTexture2D::5145590594320177704::1702261854::1702261904::1::::<><>::
+spaceStation_021.png::CompressedTexture2D::2589573085644706170::1702261854::1702261904::1::::<><>::
+spaceStation_022.png::CompressedTexture2D::8994622631285705179::1702261854::1702261904::1::::<><>::
+spaceStation_023.png::CompressedTexture2D::1732643137425629090::1702261854::1702261904::1::::<><>::
+spaceStation_024.png::CompressedTexture2D::1128889624674448542::1702261854::1702261904::1::::<><>::
+spaceStation_025.png::CompressedTexture2D::1383350242326293695::1702261854::1702261904::1::::<><>::
+spaceStation_026.png::CompressedTexture2D::8174422947750765990::1702261854::1702261904::1::::<><>::
+spaceStation_027.png::CompressedTexture2D::4074023692022997608::1702261854::1702261904::1::::<><>::
+spaceStation_028.png::CompressedTexture2D::1307404306319553058::1702261854::1702261904::1::::<><>::
+spaceStation_029.png::CompressedTexture2D::45336526285443519::1702261854::1702261904::1::::<><>::
+spaceStation_030.png::CompressedTexture2D::6404897351277903760::1702261854::1702261904::1::::<><>::
+spaceStation_031.png::CompressedTexture2D::6718239369495922690::1702261854::1702261904::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites X2/::1702261861
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites X2/Astronauts/::1702261904
+spaceAstronauts_001.png::CompressedTexture2D::2875913866495381523::1702261855::1702261904::1::::<><>::
+spaceAstronauts_002.png::CompressedTexture2D::2288976212655854389::1702261855::1702261904::1::::<><>::
+spaceAstronauts_003.png::CompressedTexture2D::2953116166692910503::1702261855::1702261904::1::::<><>::
+spaceAstronauts_004.png::CompressedTexture2D::3369968324692973730::1702261855::1702261899::1::::<><>::
+spaceAstronauts_005.png::CompressedTexture2D::1557490933131961022::1702261855::1702261899::1::::<><>::
+spaceAstronauts_006.png::CompressedTexture2D::8719075784839294274::1702261855::1702261899::1::::<><>::
+spaceAstronauts_007.png::CompressedTexture2D::2833809402043706183::1702261855::1702261899::1::::<><>::
+spaceAstronauts_008.png::CompressedTexture2D::8627238147334990164::1702261855::1702261899::1::::<><>::
+spaceAstronauts_009.png::CompressedTexture2D::447774356048777117::1702261855::1702261899::1::::<><>::
+spaceAstronauts_010.png::CompressedTexture2D::7070848648496514718::1702261855::1702261899::1::::<><>::
+spaceAstronauts_011.png::CompressedTexture2D::4032121724503207953::1702261855::1702261899::1::::<><>::
+spaceAstronauts_012.png::CompressedTexture2D::4870585328725044397::1702261855::1702261899::1::::<><>::
+spaceAstronauts_013.png::CompressedTexture2D::7558640476004395905::1702261855::1702261899::1::::<><>::
+spaceAstronauts_014.png::CompressedTexture2D::8504486413674724316::1702261855::1702261899::1::::<><>::
+spaceAstronauts_015.png::CompressedTexture2D::1095979271235412077::1702261855::1702261899::1::::<><>::
+spaceAstronauts_016.png::CompressedTexture2D::84815873922244734::1702261855::1702261899::1::::<><>::
+spaceAstronauts_017.png::CompressedTexture2D::7732936382296838740::1702261855::1702261899::1::::<><>::
+spaceAstronauts_018.png::CompressedTexture2D::1985566587525586005::1702261855::1702261899::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites X2/Building/::1702261900
+spaceBuilding_001.png::CompressedTexture2D::2417062848184075513::1702261855::1702261899::1::::<><>::
+spaceBuilding_002.png::CompressedTexture2D::4418016628211190594::1702261855::1702261899::1::::<><>::
+spaceBuilding_003.png::CompressedTexture2D::7467151829582138565::1702261855::1702261899::1::::<><>::
+spaceBuilding_004.png::CompressedTexture2D::5350934258500540329::1702261855::1702261899::1::::<><>::
+spaceBuilding_005.png::CompressedTexture2D::8374427303859197828::1702261855::1702261899::1::::<><>::
+spaceBuilding_006.png::CompressedTexture2D::7652529484750107948::1702261855::1702261899::1::::<><>::
+spaceBuilding_007.png::CompressedTexture2D::3798218057616543906::1702261855::1702261899::1::::<><>::
+spaceBuilding_008.png::CompressedTexture2D::3196763889496821750::1702261855::1702261899::1::::<><>::
+spaceBuilding_009.png::CompressedTexture2D::7620473488382776249::1702261855::1702261899::1::::<><>::
+spaceBuilding_010.png::CompressedTexture2D::9045316892490511776::1702261855::1702261899::1::::<><>::
+spaceBuilding_011.png::CompressedTexture2D::8689446105580804990::1702261855::1702261899::1::::<><>::
+spaceBuilding_012.png::CompressedTexture2D::1096823570195579333::1702261855::1702261899::1::::<><>::
+spaceBuilding_013.png::CompressedTexture2D::7621476800542696708::1702261855::1702261899::1::::<><>::
+spaceBuilding_014.png::CompressedTexture2D::609850276103501108::1702261855::1702261899::1::::<><>::
+spaceBuilding_015.png::CompressedTexture2D::589302081408172755::1702261855::1702261899::1::::<><>::
+spaceBuilding_016.png::CompressedTexture2D::5575435395194195079::1702261855::1702261899::1::::<><>::
+spaceBuilding_017.png::CompressedTexture2D::6015277872189601358::1702261855::1702261899::1::::<><>::
+spaceBuilding_018.png::CompressedTexture2D::5748876348663787625::1702261855::1702261899::1::::<><>::
+spaceBuilding_019.png::CompressedTexture2D::6797830081669788847::1702261856::1702261899::1::::<><>::
+spaceBuilding_020.png::CompressedTexture2D::875460315317773710::1702261856::1702261899::1::::<><>::
+spaceBuilding_021.png::CompressedTexture2D::2944275870413136121::1702261856::1702261900::1::::<><>::
+spaceBuilding_022.png::CompressedTexture2D::3845276631544013299::1702261856::1702261900::1::::<><>::
+spaceBuilding_023.png::CompressedTexture2D::6958381826506105671::1702261856::1702261900::1::::<><>::
+spaceBuilding_024.png::CompressedTexture2D::5010210848394674019::1702261856::1702261900::1::::<><>::
+spaceBuilding_025.png::CompressedTexture2D::4985688103728359516::1702261856::1702261900::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites X2/Effects/::1702261900
+spaceEffects_001.png::CompressedTexture2D::104377276317014622::1702261856::1702261900::1::::<><>::
+spaceEffects_002.png::CompressedTexture2D::6105096502424750040::1702261856::1702261900::1::::<><>::
+spaceEffects_003.png::CompressedTexture2D::7951292075604600365::1702261856::1702261900::1::::<><>::
+spaceEffects_004.png::CompressedTexture2D::9025250128111756936::1702261856::1702261900::1::::<><>::
+spaceEffects_005.png::CompressedTexture2D::2346914398541674541::1702261856::1702261900::1::::<><>::
+spaceEffects_006.png::CompressedTexture2D::8935538419494372688::1702261856::1702261900::1::::<><>::
+spaceEffects_007.png::CompressedTexture2D::7854254994666586001::1702261856::1702261900::1::::<><>::
+spaceEffects_008.png::CompressedTexture2D::4592786175408472968::1702261856::1702261900::1::::<><>::
+spaceEffects_009.png::CompressedTexture2D::4545239723386953146::1702261856::1702261900::1::::<><>::
+spaceEffects_010.png::CompressedTexture2D::7187098821953765938::1702261856::1702261900::1::::<><>::
+spaceEffects_011.png::CompressedTexture2D::9083777141319438161::1702261856::1702261900::1::::<><>::
+spaceEffects_012.png::CompressedTexture2D::6808209920484365941::1702261856::1702261900::1::::<><>::
+spaceEffects_013.png::CompressedTexture2D::8533822838957524724::1702261856::1702261900::1::::<><>::
+spaceEffects_014.png::CompressedTexture2D::3088438716613008104::1702261856::1702261899::1::::<><>::
+spaceEffects_015.png::CompressedTexture2D::3417564924640942179::1702261856::1702261899::1::::<><>::
+spaceEffects_016.png::CompressedTexture2D::8605060132683489103::1702261856::1702261899::1::::<><>::
+spaceEffects_017.png::CompressedTexture2D::5114335362920715883::1702261856::1702261899::1::::<><>::
+spaceEffects_018.png::CompressedTexture2D::3903819549745383063::1702261856::1702261899::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites X2/Meteors/::1702261900
+spaceMeteors_001.png::CompressedTexture2D::4920131481485493833::1702261856::1702261899::1::::<><>::
+spaceMeteors_002.png::CompressedTexture2D::1028831377809091966::1702261856::1702261899::1::::<><>::
+spaceMeteors_003.png::CompressedTexture2D::1797186793474669287::1702261856::1702261900::1::::<><>::
+spaceMeteors_004.png::CompressedTexture2D::6133788346912045786::1702261856::1702261900::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites X2/Missiles/::1702261900
+spaceMissiles_001.png::CompressedTexture2D::3427339157447018205::1702261856::1702261899::1::::<><>::
+spaceMissiles_002.png::CompressedTexture2D::2950949331067922716::1702261856::1702261899::1::::<><>::
+spaceMissiles_003.png::CompressedTexture2D::2382424439471143659::1702261856::1702261900::1::::<><>::
+spaceMissiles_004.png::CompressedTexture2D::4859674516904691982::1702261856::1702261900::1::::<><>::
+spaceMissiles_005.png::CompressedTexture2D::4447278560285793066::1702261856::1702261900::1::::<><>::
+spaceMissiles_006.png::CompressedTexture2D::7596568101749140001::1702261856::1702261900::1::::<><>::
+spaceMissiles_007.png::CompressedTexture2D::155482501898052200::1702261856::1702261900::1::::<><>::
+spaceMissiles_008.png::CompressedTexture2D::2834194377625621837::1702261857::1702261900::1::::<><>::
+spaceMissiles_009.png::CompressedTexture2D::3179318046917845723::1702261857::1702261898::1::::<><>::
+spaceMissiles_010.png::CompressedTexture2D::7118003159854118274::1702261857::1702261898::1::::<><>::
+spaceMissiles_011.png::CompressedTexture2D::4920822991884990590::1702261857::1702261898::1::::<><>::
+spaceMissiles_012.png::CompressedTexture2D::3670639163235385812::1702261857::1702261898::1::::<><>::
+spaceMissiles_013.png::CompressedTexture2D::6986238899771534792::1702261857::1702261898::1::::<><>::
+spaceMissiles_014.png::CompressedTexture2D::7744847017755566142::1702261857::1702261898::1::::<><>::
+spaceMissiles_015.png::CompressedTexture2D::1853007896947574302::1702261857::1702261898::1::::<><>::
+spaceMissiles_016.png::CompressedTexture2D::348538864814060910::1702261857::1702261898::1::::<><>::
+spaceMissiles_017.png::CompressedTexture2D::285165107141013884::1702261857::1702261898::1::::<><>::
+spaceMissiles_018.png::CompressedTexture2D::2010460386155959893::1702261857::1702261898::1::::<><>::
+spaceMissiles_019.png::CompressedTexture2D::5886198358660684874::1702261857::1702261898::1::::<><>::
+spaceMissiles_020.png::CompressedTexture2D::1416375453816645303::1702261857::1702261898::1::::<><>::
+spaceMissiles_021.png::CompressedTexture2D::1484966415422593563::1702261857::1702261898::1::::<><>::
+spaceMissiles_022.png::CompressedTexture2D::6570110015332721378::1702261857::1702261898::1::::<><>::
+spaceMissiles_023.png::CompressedTexture2D::1342330738440063086::1702261857::1702261899::1::::<><>::
+spaceMissiles_024.png::CompressedTexture2D::4702963237772997999::1702261857::1702261899::1::::<><>::
+spaceMissiles_025.png::CompressedTexture2D::7086115986399730404::1702261857::1702261899::1::::<><>::
+spaceMissiles_026.png::CompressedTexture2D::7836754997938800202::1702261857::1702261899::1::::<><>::
+spaceMissiles_027.png::CompressedTexture2D::9002879254846649668::1702261857::1702261898::1::::<><>::
+spaceMissiles_028.png::CompressedTexture2D::1146757741786095419::1702261857::1702261898::1::::<><>::
+spaceMissiles_029.png::CompressedTexture2D::4215168242643528289::1702261857::1702261898::1::::<><>::
+spaceMissiles_030.png::CompressedTexture2D::1034198038964396536::1702261857::1702261898::1::::<><>::
+spaceMissiles_031.png::CompressedTexture2D::8649085805759990682::1702261857::1702261898::1::::<><>::
+spaceMissiles_032.png::CompressedTexture2D::1522270248904741873::1702261857::1702261898::1::::<><>::
+spaceMissiles_033.png::CompressedTexture2D::5769133177744028893::1702261857::1702261898::1::::<><>::
+spaceMissiles_034.png::CompressedTexture2D::6731996576202845399::1702261857::1702261898::1::::<><>::
+spaceMissiles_035.png::CompressedTexture2D::6885778062341318843::1702261857::1702261898::1::::<><>::
+spaceMissiles_036.png::CompressedTexture2D::481574610985658126::1702261857::1702261898::1::::<><>::
+spaceMissiles_037.png::CompressedTexture2D::3268204864269049761::1702261857::1702261898::1::::<><>::
+spaceMissiles_038.png::CompressedTexture2D::1886061533302615934::1702261857::1702261898::1::::<><>::
+spaceMissiles_039.png::CompressedTexture2D::3603540927502419901::1702261857::1702261898::1::::<><>::
+spaceMissiles_040.png::CompressedTexture2D::2294000648265400372::1702261857::1702261898::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites X2/Parts/::1702261902
+spaceParts_001.png::CompressedTexture2D::6877989389855324148::1702261857::1702261898::1::::<><>::
+spaceParts_002.png::CompressedTexture2D::5952146749014003899::1702261857::1702261898::1::::<><>::
+spaceParts_003.png::CompressedTexture2D::3521280214119547589::1702261857::1702261898::1::::<><>::
+spaceParts_004.png::CompressedTexture2D::4459470515477366820::1702261858::1702261899::1::::<><>::
+spaceParts_005.png::CompressedTexture2D::1147105381183940577::1702261858::1702261899::1::::<><>::
+spaceParts_006.png::CompressedTexture2D::979847560841080071::1702261858::1702261899::1::::<><>::
+spaceParts_007.png::CompressedTexture2D::7044306190803231614::1702261858::1702261899::1::::<><>::
+spaceParts_008.png::CompressedTexture2D::2603358285295914352::1702261858::1702261899::1::::<><>::
+spaceParts_009.png::CompressedTexture2D::4999874602514128826::1702261858::1702261899::1::::<><>::
+spaceParts_010.png::CompressedTexture2D::6207932631789816706::1702261858::1702261899::1::::<><>::
+spaceParts_011.png::CompressedTexture2D::9170183939024886772::1702261858::1702261899::1::::<><>::
+spaceParts_012.png::CompressedTexture2D::6719597088114137650::1702261858::1702261899::1::::<><>::
+spaceParts_013.png::CompressedTexture2D::1536251514502906861::1702261858::1702261899::1::::<><>::
+spaceParts_014.png::CompressedTexture2D::7258657247476049496::1702261858::1702261899::1::::<><>::
+spaceParts_015.png::CompressedTexture2D::9027215112139430622::1702261858::1702261899::1::::<><>::
+spaceParts_016.png::CompressedTexture2D::4300248113335206737::1702261858::1702261899::1::::<><>::
+spaceParts_017.png::CompressedTexture2D::2988702133315619285::1702261858::1702261899::1::::<><>::
+spaceParts_018.png::CompressedTexture2D::1121703188033252040::1702261858::1702261899::1::::<><>::
+spaceParts_019.png::CompressedTexture2D::8580960818763571024::1702261858::1702261899::1::::<><>::
+spaceParts_020.png::CompressedTexture2D::6041618861604155769::1702261858::1702261899::1::::<><>::
+spaceParts_021.png::CompressedTexture2D::2967115161181852446::1702261858::1702261899::1::::<><>::
+spaceParts_022.png::CompressedTexture2D::8308221374530714597::1702261858::1702261899::1::::<><>::
+spaceParts_023.png::CompressedTexture2D::6083112979450156261::1702261858::1702261899::1::::<><>::
+spaceParts_024.png::CompressedTexture2D::4448382678999594894::1702261858::1702261899::1::::<><>::
+spaceParts_025.png::CompressedTexture2D::7530682745758471481::1702261858::1702261899::1::::<><>::
+spaceParts_026.png::CompressedTexture2D::201443269192422061::1702261858::1702261899::1::::<><>::
+spaceParts_027.png::CompressedTexture2D::1132477749874666855::1702261858::1702261899::1::::<><>::
+spaceParts_028.png::CompressedTexture2D::2287145376338944849::1702261858::1702261899::1::::<><>::
+spaceParts_029.png::CompressedTexture2D::2569101030671248998::1702261858::1702261899::1::::<><>::
+spaceParts_030.png::CompressedTexture2D::792615226258883379::1702261858::1702261899::1::::<><>::
+spaceParts_031.png::CompressedTexture2D::1022754797390537690::1702261858::1702261899::1::::<><>::
+spaceParts_032.png::CompressedTexture2D::5820560802986976822::1702261858::1702261899::1::::<><>::
+spaceParts_033.png::CompressedTexture2D::2325816174998225180::1702261858::1702261899::1::::<><>::
+spaceParts_034.png::CompressedTexture2D::4646052578253083527::1702261858::1702261899::1::::<><>::
+spaceParts_035.png::CompressedTexture2D::5485767016812038158::1702261858::1702261899::1::::<><>::
+spaceParts_036.png::CompressedTexture2D::8030181114606069453::1702261858::1702261899::1::::<><>::
+spaceParts_037.png::CompressedTexture2D::7487521894697155395::1702261858::1702261899::1::::<><>::
+spaceParts_038.png::CompressedTexture2D::9171372565542354689::1702261858::1702261899::1::::<><>::
+spaceParts_039.png::CompressedTexture2D::4041589731561988161::1702261858::1702261901::1::::<><>::
+spaceParts_040.png::CompressedTexture2D::3585788494312789738::1702261858::1702261901::1::::<><>::
+spaceParts_041.png::CompressedTexture2D::2168725535190581783::1702261859::1702261901::1::::<><>::
+spaceParts_042.png::CompressedTexture2D::6407959612161240861::1702261859::1702261901::1::::<><>::
+spaceParts_043.png::CompressedTexture2D::8445200436276200526::1702261859::1702261901::1::::<><>::
+spaceParts_044.png::CompressedTexture2D::4914776000917140755::1702261859::1702261901::1::::<><>::
+spaceParts_045.png::CompressedTexture2D::7500209499816255656::1702261859::1702261901::1::::<><>::
+spaceParts_046.png::CompressedTexture2D::6850034044491483464::1702261859::1702261901::1::::<><>::
+spaceParts_047.png::CompressedTexture2D::3974944222887261009::1702261859::1702261901::1::::<><>::
+spaceParts_048.png::CompressedTexture2D::2217513456246163530::1702261859::1702261901::1::::<><>::
+spaceParts_049.png::CompressedTexture2D::1418519829052098354::1702261859::1702261901::1::::<><>::
+spaceParts_050.png::CompressedTexture2D::3419803637840079532::1702261859::1702261901::1::::<><>::
+spaceParts_051.png::CompressedTexture2D::1000732835640433742::1702261859::1702261901::1::::<><>::
+spaceParts_052.png::CompressedTexture2D::9149814240354299773::1702261859::1702261901::1::::<><>::
+spaceParts_053.png::CompressedTexture2D::8856791179948700528::1702261859::1702261902::1::::<><>::
+spaceParts_054.png::CompressedTexture2D::6384850575757516086::1702261859::1702261902::1::::<><>::
+spaceParts_055.png::CompressedTexture2D::7511083019089688247::1702261859::1702261902::1::::<><>::
+spaceParts_056.png::CompressedTexture2D::6142658069209986561::1702261859::1702261902::1::::<><>::
+spaceParts_057.png::CompressedTexture2D::7691202641594103334::1702261859::1702261901::1::::<><>::
+spaceParts_058.png::CompressedTexture2D::2977999524584337882::1702261859::1702261901::1::::<><>::
+spaceParts_059.png::CompressedTexture2D::3164215424107871235::1702261859::1702261901::1::::<><>::
+spaceParts_060.png::CompressedTexture2D::2404731660539694887::1702261859::1702261901::1::::<><>::
+spaceParts_061.png::CompressedTexture2D::4386967762031011834::1702261859::1702261901::1::::<><>::
+spaceParts_062.png::CompressedTexture2D::4682403759225137425::1702261859::1702261901::1::::<><>::
+spaceParts_063.png::CompressedTexture2D::8902691293035404051::1702261859::1702261901::1::::<><>::
+spaceParts_064.png::CompressedTexture2D::3542584073986440394::1702261859::1702261901::1::::<><>::
+spaceParts_065.png::CompressedTexture2D::3298574517709635555::1702261859::1702261901::1::::<><>::
+spaceParts_066.png::CompressedTexture2D::2599322721391033299::1702261859::1702261901::1::::<><>::
+spaceParts_067.png::CompressedTexture2D::6625303075130720409::1702261859::1702261901::1::::<><>::
+spaceParts_068.png::CompressedTexture2D::4519973436048111590::1702261859::1702261901::1::::<><>::
+spaceParts_069.png::CompressedTexture2D::2928831590353743050::1702261859::1702261901::1::::<><>::
+spaceParts_070.png::CompressedTexture2D::9171572480631086604::1702261859::1702261901::1::::<><>::
+spaceParts_071.png::CompressedTexture2D::7051490975333503004::1702261859::1702261901::1::::<><>::
+spaceParts_072.png::CompressedTexture2D::940274532281093583::1702261859::1702261901::1::::<><>::
+spaceParts_073.png::CompressedTexture2D::5426635396157286988::1702261859::1702261901::1::::<><>::
+spaceParts_074.png::CompressedTexture2D::4025855856207969648::1702261859::1702261902::1::::<><>::
+spaceParts_075.png::CompressedTexture2D::5439303081957155029::1702261859::1702261902::1::::<><>::
+spaceParts_076.png::CompressedTexture2D::2587798142516164865::1702261859::1702261902::1::::<><>::
+spaceParts_077.png::CompressedTexture2D::7948366772856197771::1702261859::1702261902::1::::<><>::
+spaceParts_078.png::CompressedTexture2D::1015994597710807838::1702261860::1702261902::1::::<><>::
+spaceParts_079.png::CompressedTexture2D::6617286741729585427::1702261860::1702261902::1::::<><>::
+spaceParts_080.png::CompressedTexture2D::8307210272610225838::1702261860::1702261902::1::::<><>::
+spaceParts_081.png::CompressedTexture2D::2529641804737607851::1702261860::1702261902::1::::<><>::
+spaceParts_082.png::CompressedTexture2D::5716094865786423565::1702261860::1702261902::1::::<><>::
+spaceParts_083.png::CompressedTexture2D::2146403623636970622::1702261860::1702261902::1::::<><>::
+spaceParts_084.png::CompressedTexture2D::7549384342803196003::1702261860::1702261902::1::::<><>::
+spaceParts_085.png::CompressedTexture2D::4987928825107521594::1702261860::1702261902::1::::<><>::
+spaceParts_086.png::CompressedTexture2D::5877373423023643612::1702261860::1702261902::1::::<><>::
+spaceParts_087.png::CompressedTexture2D::3368637809657001339::1702261860::1702261902::1::::<><>::
+spaceParts_088.png::CompressedTexture2D::418299776244869157::1702261860::1702261902::1::::<><>::
+spaceParts_089.png::CompressedTexture2D::2615156393711009939::1702261860::1702261902::1::::<><>::
+spaceParts_090.png::CompressedTexture2D::8928835420005774389::1702261860::1702261902::1::::<><>::
+spaceParts_091.png::CompressedTexture2D::2638790593108117871::1702261860::1702261902::1::::<><>::
+spaceParts_092.png::CompressedTexture2D::2667238444089974927::1702261860::1702261902::1::::<><>::
+spaceParts_093.png::CompressedTexture2D::5171944072688013625::1702261860::1702261902::1::::<><>::
+spaceParts_094.png::CompressedTexture2D::418304350034538614::1702261860::1702261902::1::::<><>::
+spaceParts_095.png::CompressedTexture2D::9103512285312129860::1702261860::1702261902::1::::<><>::
+spaceParts_096.png::CompressedTexture2D::3040401118105412233::1702261860::1702261902::1::::<><>::
+spaceParts_097.png::CompressedTexture2D::669715418353223672::1702261860::1702261902::1::::<><>::
+spaceParts_098.png::CompressedTexture2D::840413454789003310::1702261860::1702261902::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites X2/Rocket parts/::1702261902
+spaceRocketParts_001.png::CompressedTexture2D::2066184993458121153::1702261860::1702261902::1::::<><>::
+spaceRocketParts_002.png::CompressedTexture2D::1930965651171953902::1702261860::1702261902::1::::<><>::
+spaceRocketParts_003.png::CompressedTexture2D::758967985800924875::1702261860::1702261902::1::::<><>::
+spaceRocketParts_004.png::CompressedTexture2D::679305220838707017::1702261860::1702261902::1::::<><>::
+spaceRocketParts_005.png::CompressedTexture2D::3441991385438012103::1702261860::1702261902::1::::<><>::
+spaceRocketParts_006.png::CompressedTexture2D::7518410708227742334::1702261860::1702261902::1::::<><>::
+spaceRocketParts_007.png::CompressedTexture2D::2155065409517096262::1702261860::1702261902::1::::<><>::
+spaceRocketParts_008.png::CompressedTexture2D::7833844453453329196::1702261860::1702261902::1::::<><>::
+spaceRocketParts_009.png::CompressedTexture2D::2515297532334435286::1702261860::1702261902::1::::<><>::
+spaceRocketParts_010.png::CompressedTexture2D::6350497435762079655::1702261860::1702261902::1::::<><>::
+spaceRocketParts_011.png::CompressedTexture2D::4991335792095872285::1702261860::1702261902::1::::<><>::
+spaceRocketParts_012.png::CompressedTexture2D::1503941382788625047::1702261860::1702261900::1::::<><>::
+spaceRocketParts_013.png::CompressedTexture2D::1699294186542532491::1702261860::1702261900::1::::<><>::
+spaceRocketParts_014.png::CompressedTexture2D::6453422915440635520::1702261860::1702261900::1::::<><>::
+spaceRocketParts_015.png::CompressedTexture2D::5962705905620640628::1702261860::1702261900::1::::<><>::
+spaceRocketParts_016.png::CompressedTexture2D::32449591756582451::1702261861::1702261900::1::::<><>::
+spaceRocketParts_017.png::CompressedTexture2D::3645226559809540377::1702261861::1702261900::1::::<><>::
+spaceRocketParts_018.png::CompressedTexture2D::4708153469044887275::1702261861::1702261900::1::::<><>::
+spaceRocketParts_019.png::CompressedTexture2D::7792289725119658377::1702261861::1702261900::1::::<><>::
+spaceRocketParts_020.png::CompressedTexture2D::1715580794085225279::1702261861::1702261900::1::::<><>::
+spaceRocketParts_021.png::CompressedTexture2D::5869241953703907052::1702261861::1702261900::1::::<><>::
+spaceRocketParts_022.png::CompressedTexture2D::1742815510054545431::1702261861::1702261900::1::::<><>::
+spaceRocketParts_023.png::CompressedTexture2D::6019663563852714019::1702261861::1702261900::1::::<><>::
+spaceRocketParts_024.png::CompressedTexture2D::3278684674394079624::1702261861::1702261900::1::::<><>::
+spaceRocketParts_025.png::CompressedTexture2D::4120180173706965136::1702261861::1702261900::1::::<><>::
+spaceRocketParts_026.png::CompressedTexture2D::3580194567412416795::1702261861::1702261900::1::::<><>::
+spaceRocketParts_027.png::CompressedTexture2D::7329047034461606690::1702261861::1702261900::1::::<><>::
+spaceRocketParts_028.png::CompressedTexture2D::6301622304467834227::1702261861::1702261900::1::::<><>::
+spaceRocketParts_029.png::CompressedTexture2D::4854842562232151300::1702261861::1702261900::1::::<><>::
+spaceRocketParts_030.png::CompressedTexture2D::6637697854951419345::1702261861::1702261900::1::::<><>::
+spaceRocketParts_031.png::CompressedTexture2D::4942457287740111611::1702261861::1702261900::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites X2/Rockets/::1702261900
+spaceRockets_001.png::CompressedTexture2D::837289603118364932::1702261861::1702261900::1::::<><>::
+spaceRockets_002.png::CompressedTexture2D::5843099791176795754::1702261861::1702261900::1::::<><>::
+spaceRockets_003.png::CompressedTexture2D::4365275649643551465::1702261861::1702261900::1::::<><>::
+spaceRockets_004.png::CompressedTexture2D::3986911582965621189::1702261861::1702261900::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites X2/Ships/::1702261900
+spaceShips_001.png::CompressedTexture2D::681893205694891019::1702261861::1702261900::1::::<><>::
+spaceShips_002.png::CompressedTexture2D::6943485973332397719::1702261861::1702261900::1::::<><>::
+spaceShips_003.png::CompressedTexture2D::2453996157304500275::1702261861::1702261900::1::::<><>::
+spaceShips_004.png::CompressedTexture2D::7267882055449781724::1702261861::1702261900::1::::<><>::
+spaceShips_005.png::CompressedTexture2D::6760364462923123562::1702261861::1702261900::1::::<><>::
+spaceShips_006.png::CompressedTexture2D::3598361761599701561::1702261861::1702261900::1::::<><>::
+spaceShips_007.png::CompressedTexture2D::3175955711972820078::1702261861::1702261900::1::::<><>::
+spaceShips_008.png::CompressedTexture2D::6354310590112534039::1702261861::1702261900::1::::<><>::
+spaceShips_009.png::CompressedTexture2D::1344884274892670361::1702261861::1702261900::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites X2/Station/::1702261901
+spaceStation_001.png::CompressedTexture2D::1168867036989009504::1702261861::1702261900::1::::<><>::
+spaceStation_002.png::CompressedTexture2D::753723539132169534::1702261861::1702261900::1::::<><>::
+spaceStation_003.png::CompressedTexture2D::975796322757443108::1702261861::1702261900::1::::<><>::
+spaceStation_004.png::CompressedTexture2D::5480658309356694223::1702261861::1702261901::1::::<><>::
+spaceStation_005.png::CompressedTexture2D::6422442935832026939::1702261861::1702261901::1::::<><>::
+spaceStation_006.png::CompressedTexture2D::1940831710763122312::1702261861::1702261901::1::::<><>::
+spaceStation_007.png::CompressedTexture2D::599828268190433295::1702261861::1702261901::1::::<><>::
+spaceStation_008.png::CompressedTexture2D::4373856636266280588::1702261862::1702261901::1::::<><>::
+spaceStation_009.png::CompressedTexture2D::5271442249995634630::1702261862::1702261901::1::::<><>::
+spaceStation_010.png::CompressedTexture2D::206236938687186872::1702261862::1702261901::1::::<><>::
+spaceStation_011.png::CompressedTexture2D::5175344195195623412::1702261862::1702261901::1::::<><>::
+spaceStation_012.png::CompressedTexture2D::3970008713469406894::1702261862::1702261901::1::::<><>::
+spaceStation_013.png::CompressedTexture2D::8245260127282621362::1702261862::1702261901::1::::<><>::
+spaceStation_014.png::CompressedTexture2D::8280292486817562381::1702261862::1702261901::1::::<><>::
+spaceStation_015.png::CompressedTexture2D::1719506918934136525::1702261862::1702261901::1::::<><>::
+spaceStation_016.png::CompressedTexture2D::4006972578086851139::1702261862::1702261901::1::::<><>::
+spaceStation_017.png::CompressedTexture2D::7431895502350481548::1702261862::1702261901::1::::<><>::
+spaceStation_018.png::CompressedTexture2D::6841315248816938558::1702261862::1702261901::1::::<><>::
+spaceStation_019.png::CompressedTexture2D::6563246429733460918::1702261862::1702261901::1::::<><>::
+spaceStation_020.png::CompressedTexture2D::2798516316846894447::1702261862::1702261901::1::::<><>::
+spaceStation_021.png::CompressedTexture2D::6672914518901712235::1702261862::1702261900::1::::<><>::
+spaceStation_022.png::CompressedTexture2D::5450800176619827772::1702261862::1702261900::1::::<><>::
+spaceStation_023.png::CompressedTexture2D::1066743788721290007::1702261862::1702261900::1::::<><>::
+spaceStation_024.png::CompressedTexture2D::4781125449004870330::1702261862::1702261900::1::::<><>::
+spaceStation_025.png::CompressedTexture2D::8637193181689039585::1702261862::1702261900::1::::<><>::
+spaceStation_026.png::CompressedTexture2D::841725247463762327::1702261862::1702261900::1::::<><>::
+spaceStation_027.png::CompressedTexture2D::7036144025187043502::1702261862::1702261900::1::::<><>::
+spaceStation_028.png::CompressedTexture2D::4799717352705676935::1702261862::1702261900::1::::<><>::
+spaceStation_029.png::CompressedTexture2D::3016037273288450786::1702261862::1702261900::1::::<><>::
+spaceStation_030.png::CompressedTexture2D::7430989146410275670::1702261862::1702261900::1::::<><>::
+spaceStation_031.png::CompressedTexture2D::8933527788011836594::1702261862::1702261900::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/Spritesheet/::1702261903
+spaceShooter2_spritesheet.png::CompressedTexture2D::8863670979339590512::1702261862::1702261901::1::::<><>::
+spaceShooter2_spritesheet.xml::TextFile::-1::1702261862::0::1::::<><>::
+spaceShooter2_spritesheet_2X.png::CompressedTexture2D::1005869181782988735::1702261862::1702261903::1::::<><>::
+spaceShooter2_spritesheet_2X.xml::TextFile::-1::1702261862::0::1::::<><>::
+::res://resources/kenney_space-shooter-extension (1)/Vector/::1702261902
+spaceShooter2_vector.svg::CompressedTexture2D::2846925810179861110::1702261847::1702261902::1::::<><>::
+::res://resources/Mini FX, Items & UI/::1702260439
+LICENSE.txt::TextFile::-1::1593868726::0::1::::<><>::
+::res://resources/Mini FX, Items & UI/Common Pick-ups/::1702303595
+Coin2.png::CompressedTexture2D::4562658094828454947::1702303588::1702303595::1::::<><>::
+Coin (16 x 16).png::CompressedTexture2D::5116650337139569825::1594132264::1702260448::1::::<><>::
+Health_Kit (16 x 16).png::CompressedTexture2D::917173881056382565::1594132408::1702260448::1::::<><>::
+Heart_Spin (16 x 16).png::CompressedTexture2D::6291264497873750207::1594132378::1702260448::1::::<><>::
+Small_Coin (16 x 16).png::CompressedTexture2D::8372763264892150037::1594132330::1702260448::1::::<><>::
+Treasure_Chest (32 x 16).png::CompressedTexture2D::4414878970274659773::1594132452::1702260448::1::::<><>::
+Wrapped_Presents (16 x 16).png::CompressedTexture2D::6794569972662821557::1594132488::1702260448::1::::<><>::
+::res://resources/Mini FX, Items & UI/Effects/::1702260448
+Bright_Sparkle (16 x 16).png::CompressedTexture2D::1916530967791439380::1594070908::1702260448::1::::<><>::
+Cloud_Poof (16 x 16).png::CompressedTexture2D::7801343830437589337::1594070640::1702260448::1::::<><>::
+Dust (16 x 16).png::CompressedTexture2D::4358221807219958157::1594070508::1702260448::1::::<><>::
+Explosion_Poof (16 x 16).png::CompressedTexture2D::3847803906163272616::1594070736::1702260448::1::::<><>::
+Yellow_Sparkle (16 x 16).png::CompressedTexture2D::8779948006390746080::1594070970::1702260448::1::::<><>::
+::res://resources/Mini FX, Items & UI/Food Items/::1702260448
+Bottled_Drinks (16 x 16).png::CompressedTexture2D::1959957570812593247::1594071892::1702260448::1::::<><>::
+Burger_&_Fries (16 x 16).png::CompressedTexture2D::9140271463168733720::1594072008::1702260448::1::::<><>::
+Cake_Slices (16 x 16).png::CompressedTexture2D::3665102590848906280::1594071962::1702260448::1::::<><>::
+Chocolate_Bars (16 x 16).png::CompressedTexture2D::1766965331899634449::1594071606::1702260448::1::::<><>::
+Fruits (16 x 16).png::CompressedTexture2D::1816210012496166107::1594071574::1702260448::1::::<><>::
+Grilled_Panini (16 x 16).png::CompressedTexture2D::7759802496722596768::1594072032::1702260448::1::::<><>::
+Ice_Cream_Cones (16 x 16).png::CompressedTexture2D::8728623202602085662::1594071764::1702260448::1::::<><>::
+Milk_Cartons (16 x 16).png::CompressedTexture2D::404945297787718365::1594071870::1702260448::1::::<><>::
+Pancake_Stack (16 x 16).png::CompressedTexture2D::7679046091418221568::1594072044::1702260448::1::::<><>::
+Salad_Bowl (16 x 16).png::CompressedTexture2D::8308836185598636751::1594071916::1702260448::1::::<><>::
+Sushi_Variety (16 x 16).png::CompressedTexture2D::4096766520119150031::1594071840::1702260448::1::::<><>::
+Wrapped_Candies (16 x 16).png::CompressedTexture2D::5780668446108285069::1594071806::1702260448::1::::<><>::
+::res://resources/Mini FX, Items & UI/Mini UI/::1702260448
+Health_Indicator_Black_Outline (8 x 8).png::CompressedTexture2D::6542007722509104471::1594133686::1702260448::1::::<><>::
+Health_Indicator_White_Outline (8 x 8).png::CompressedTexture2D::7618813188922231051::1594133712::1702260448::1::::<><>::
+Mouse_Icons_Outlined (16 x 16).png::CompressedTexture2D::3017997305917957344::1594133770::1702260448::1::::<><>::
+Mouse_Icons_Outlined_Drop-shadowed (16 x 16).png::CompressedTexture2D::7177964102193022376::1594133812::1702260448::1::::<><>::
+Speech_Emotes (16 x 16).png::CompressedTexture2D::6013624947258061336::1594071242::1702260448::1::::<><>::
+Timer_Coin_Numbers_Drop-shadowed (8 x 8).png::CompressedTexture2D::5984309619753560558::1594133632::1702260448::1::::<><>::
+Timer_Coin_Numbers_Outlined (8 x 8).png::CompressedTexture2D::3717654013574129050::1594133594::1702260448::1::::<><>::
 ::res://resources/Mini Pixel Pack 2/::1701997555
 Extras credit.txt::TextFile::-1::1701997555::0::1::::<><>::
 LICENSE.txt::TextFile::-1::1701997555::0::1::::<><>::
@@ -785,12 +1419,14 @@ Black_hole.png::CompressedTexture2D::5770335069909712643::1701997555::1701997555
 Ice.png::CompressedTexture2D::300363328887345433::1701997555::1701997555::1::::<><>::
 Lava.png::CompressedTexture2D::3074774546191635235::1701997555::1701997555::1::::<><>::
 Terran.png::CompressedTexture2D::5029810456625431894::1701997555::1701997555::1::::<><>::
-::res://resources/songs/::1702053772
+::res://resources/songs/::1702318309
 desktop.ini::TextFile::-1::1701997556::0::1::::<><>::
 game_over.mp3::AudioStreamMP3::6355132997302721559::1702053610::1702053778::1::::<><>::
 jump_mario.mp3::AudioStreamMP3::7420976754210861432::1701997556::1701997556::1::::<><>::
+music_mario.mp3::AudioStreamMP3::5866960367910259334::1702305066::1702305286::1::::<><>::
 nave.mp3::AudioStreamMP3::900928400376973933::1701997556::1701997556::1::::<><>::
 nave_running.wav::AudioStreamWAV::8953095563542676757::1701997556::1701997556::1::::<><>::
+song_level2.mp3::AudioStreamMP3::1142324765681336340::1702318021::1702318309::1::::<><>::
 ::res://resources/Space/::1701997555
 public-license.txt::TextFile::-1::1701997555::0::1::::<><>::
 Space Sprite Sheet.png::CompressedTexture2D::7345919436077009674::1701997555::1701997555::1::::<><>::
@@ -1017,29 +1653,56 @@ luigi_idle.png::CompressedTexture2D::865346882726120422::1702007178::1702007178:
 luigi_jumping.png::CompressedTexture2D::7881978382508099121::1702007178::1702007178::1::::<><>::
 ship_luide_iddle.png::CompressedTexture2D::2075837492035109078::1702007178::1702007178::1::::<><>::
 ship_luigi_piloting.png::CompressedTexture2D::5337878132234667467::1702007178::1702007178::1::::<><>::
-::res://resources/sprites_mario/::1701997557
+::res://resources/sprites_mario/::1702274688
+kisspng-sprite-pixel-art-side-scrolling-3d-computer-graphi-spaceship-5abca8ca2de555.569407871522313418188.jpg::CompressedTexture2D::603783752287389923::1701869779::1702274583::1::::<><>::
 mario_iddle.png::CompressedTexture2D::8802127923221137283::1701997557::1701997557::1::::<><>::
 mario_idle.png::CompressedTexture2D::4592716424691360809::1701997557::1701997557::1::::<><>::
 mario_jumping.png::CompressedTexture2D::4617041830639963283::1701997557::1701997557::1::::<><>::
 mario_piloting.png::CompressedTexture2D::4186823160348133931::1701997557::1701997557::1::::<><>::
+pngegg.png::CompressedTexture2D::5639498204407343735::1701872548::1702274688::1::::<><>::
 sprites_mario1.png::CompressedTexture2D::7004715722110971115::1701997557::1701997557::1::::<><>::
 sprites_mario2.png::CompressedTexture2D::9042131889770605::1701997557::1701997557::1::::<><>::
 sprites_mario.png::CompressedTexture2D::9017675955798656302::1701997557::1701997557::1::::<><>::
-::res://scenes/::1702052835
-cena_1.tscn::PackedScene::8634405910966358067::1702052834::0::1::::<><>::res://scripts/World_01.gd<>uid://cvq5lwtiqiji3::::res://resources/Planets2/Baren.png<>uid://cohgttlhm7dl8::::res://resources/Planets2/Black_hole.png<>uid://bo6bmdoa7wenj::::res://resources/Animated/Strip And GIF/space6_4-frames.png<>uid://cuqrk64ifj0tg::::res://resources/planets/PNG/20.png<>uid://ejq672nelat2::::res://resources/Planets2/Ice.png<>uid://bj2pc8g5lesj0::::res://resources/Planets2/Lava.png<>uid://cdwqijk4slfbi::::res://resources/Planets2/Terran.png<>uid://ewfu2kpd47d0::::res://resources/planets/PNG/15.png<>uid://sy3ilbnvlhnj::::res://resources/planets/PNG/16.png<>uid://b4e7s5vt6ti20::::res://resources/planets/PNG/17.png<>uid://du077gfb5uc5y::::res://resources/planets/PNG/18.png<>uid://dxr5ir8hn316h::::res://resources/planets/PNG/19.png<>uid://11la503v53w4::::res://scenes/alien.tscn<>uid://cef7gcw3oghnv::::res://scenes/mario.tscn
-luigi.tscn::PackedScene::7389832526304291731::1702052834::0::1::::<><>::res://scripts/luigi.gd<>uid://mlgewca4udsg::::res://resources/sprites_luigi/luigi_idle.png<>uid://dkkdbdo84f8l6::::res://resources/sprites_luigi/luigi_jumping.png<>uid://ddy1nx1rjx36c::::res://resources/songs/jump_mario.mp3
-mario.tscn::PackedScene::5065872429564129147::1702052834::0::1::::<><>::uid://c62ev6db4p6f4::::res://resources/sprites_mario/sprites_mario1.png<>res://scripts/mario.gd<>uid://b61safcvx7jod::::res://resources/sprites_mario/mario_jumping.png<>uid://ddy1nx1rjx36c::::res://resources/songs/jump_mario.mp3
-pista1.tscn::PackedScene::5732206399496273613::1702052834::0::1::::<><>::
-player_1.tscn::PackedScene::1655431739500035748::1702052834::0::1::::<><>::res://scripts/player_1.gd<>uid://c0j8gpnk2x5h0::::res://resources/enemy/PNG_Parts&Spriter_Animation/Ship6/Ship6.png
-alien.tscn::PackedScene::1879253258736909177::1702052835::0::1::::<><>::uid://bd3q1fclbbk4o::::res://resources/kenney_alien-ufo-pack/alien_idle.png<>res://scripts/alien.gd<>uid://ch3pfldwgdfgn::::res://resources/kenney_alien-ufo-pack/alien_laser.png
-the_end.tscn::PackedScene::8875827612166965404::1702052835::0::1::::<><>::uid://bo6bmdoa7wenj::::res://resources/Animated/Strip And GIF/space6_4-frames.png
-ship_luigi.tscn::PackedScene::5700387680915886916::1702052834::0::1::::<><>::uid://dxn204t7wfx76::::res://resources/sprites_mario/mario_iddle.png<>res://scripts/ship_luigi.gd<>uid://4ts0fxhqx02e::::res://resources/sprites_luigi/ship_luide_iddle.png<>uid://m3ofn7lbgbnp::::res://resources/songs/nave.mp3<>uid://cibycql1vcyh4::::res://resources/sprites_luigi/ship_luigi_piloting.png<>uid://d0s7f8kkvkx0h::::res://resources/songs/nave_running.wav<>res://scripts/anim_luigi.gd
-ship_mario.tscn::PackedScene::5543773886275404330::1702052834::0::1::::<><>::res://scripts/player_1.gd<>uid://dxn204t7wfx76::::res://resources/sprites_mario/mario_iddle.png<>uid://b0wemo2m1j8s2::::res://resources/sprites_mario/mario_piloting.png<>uid://m3ofn7lbgbnp::::res://resources/songs/nave.mp3<>uid://d0s7f8kkvkx0h::::res://resources/songs/nave_running.wav
-::res://scripts/::1702052833
+::res://resources/title/::1702218306
+Mario_Series_Logo.png::CompressedTexture2D::1108955278634850286::1702218263::1702218306::1::::<><>::
+::res://scenes/::1702318574
+alien.tscn::PackedScene::1879253258736909177::1702302165::0::1::::<><>::uid://bd3q1fclbbk4o::::res://resources/kenney_alien-ufo-pack/alien_idle.png<>res://scripts/alien.gd<>uid://ch3pfldwgdfgn::::res://resources/kenney_alien-ufo-pack/alien_laser.png<>uid://m3ofn7lbgbnp::::res://resources/songs/nave.mp3
+area_shirp.tscn::PackedScene::4768726949142674846::1702318386::0::1::::<><>::uid://cml2ygqh2o3h0::::res://resources/sprites_mario/pngegg.png<>res://scripts/area_shirp.gd
+cena_1.tscn::PackedScene::8634405910966358067::1702318384::0::1::::<><>::res://scripts/World_01.gd<>uid://cvq5lwtiqiji3::::res://resources/Planets2/Baren.png<>uid://cohgttlhm7dl8::::res://resources/Planets2/Black_hole.png<>uid://bo6bmdoa7wenj::::res://resources/Animated/Strip And GIF/space6_4-frames.png<>uid://cuqrk64ifj0tg::::res://resources/planets/PNG/20.png<>uid://ejq672nelat2::::res://resources/Planets2/Ice.png<>uid://bj2pc8g5lesj0::::res://resources/Planets2/Lava.png<>uid://cdwqijk4slfbi::::res://resources/Planets2/Terran.png<>uid://ewfu2kpd47d0::::res://resources/planets/PNG/15.png<>uid://sy3ilbnvlhnj::::res://resources/planets/PNG/16.png<>uid://b4e7s5vt6ti20::::res://resources/planets/PNG/17.png<>uid://du077gfb5uc5y::::res://resources/planets/PNG/18.png<>uid://dxr5ir8hn316h::::res://resources/planets/PNG/19.png<>uid://ck8pe7yqghqgg::::res://scenes/ship_mario.tscn<>uid://gyf3fbbummeq::::res://scenes/coin.tscn<>uid://b801oi7mjvp1j::::res://scenes/portal.tscn<>uid://bx5kcqhcwflr2::::res://scenes/meteor.tscn<>uid://qjl6l3dflbtc::::res://resources/songs/song_level2.mp3
+cena_1_luigi.tscn::PackedScene::6135479204190761011::1702318574::0::1::::<><>::res://scripts/World_01.gd<>uid://cvq5lwtiqiji3::::res://resources/Planets2/Baren.png<>uid://cohgttlhm7dl8::::res://resources/Planets2/Black_hole.png<>uid://bo6bmdoa7wenj::::res://resources/Animated/Strip And GIF/space6_4-frames.png<>uid://cuqrk64ifj0tg::::res://resources/planets/PNG/20.png<>uid://ejq672nelat2::::res://resources/Planets2/Ice.png<>uid://bj2pc8g5lesj0::::res://resources/Planets2/Lava.png<>uid://cdwqijk4slfbi::::res://resources/Planets2/Terran.png<>uid://ewfu2kpd47d0::::res://resources/planets/PNG/15.png<>uid://sy3ilbnvlhnj::::res://resources/planets/PNG/16.png<>uid://b4e7s5vt6ti20::::res://resources/planets/PNG/17.png<>uid://du077gfb5uc5y::::res://resources/planets/PNG/18.png<>uid://dxr5ir8hn316h::::res://resources/planets/PNG/19.png<>uid://gyf3fbbummeq::::res://scenes/coin.tscn<>uid://b801oi7mjvp1j::::res://scenes/portal.tscn<>uid://bx5kcqhcwflr2::::res://scenes/meteor.tscn<>uid://cnhks1oldsscy::::res://scenes/ship_luigi.tscn<>uid://qjl6l3dflbtc::::res://resources/songs/song_level2.mp3
+coin.tscn::PackedScene::471031979353001288::1702318385::0::1::::<><>::res://scripts/coin.gd<>uid://ce5sqo6rofuv6::::res://resources/Mini FX, Items & UI/Common Pick-ups/Coin (16 x 16).png<>uid://dxdcpw2fwkrw7::::res://resources/Mini FX, Items & UI/Effects/Yellow_Sparkle (16 x 16).png
+init.gd::GDScript::-1::1702224424::0::1::::<>Control<>::
+init.tscn::PackedScene::1506109718139389995::1702318385::0::1::::<><>::res://scripts/init.gd<>uid://bo6bmdoa7wenj::::res://resources/Animated/Strip And GIF/space6_4-frames.png<>uid://p2gljec1foug::::res://resources/title/Mario_Series_Logo.png
+luigi.tscn::PackedScene::7389832526304291731::1702318385::0::1::::<><>::res://scripts/luigi.gd<>uid://mlgewca4udsg::::res://resources/sprites_luigi/luigi_idle.png<>uid://dkkdbdo84f8l6::::res://resources/sprites_luigi/luigi_jumping.png<>uid://ddy1nx1rjx36c::::res://resources/songs/jump_mario.mp3<>uid://b6agku6ckno8b::::res://resources/Mini FX, Items & UI/Common Pick-ups/Coin2.png
+mario.tscn::PackedScene::5065872429564129147::1702318385::0::1::::<><>::uid://c62ev6db4p6f4::::res://resources/sprites_mario/sprites_mario1.png<>res://scripts/mario.gd<>uid://b61safcvx7jod::::res://resources/sprites_mario/mario_jumping.png<>uid://ddy1nx1rjx36c::::res://resources/songs/jump_mario.mp3<>uid://b6agku6ckno8b::::res://resources/Mini FX, Items & UI/Common Pick-ups/Coin2.png
+mars.tscn::PackedScene::7057771812839112801::1702318384::0::1::::<><>::res://scripts/mars.gd<>uid://b6rejs7gk3ewf::::res://resources/background_mars/backeground_mars.png<>uid://baluui5j3qj5b::::res://resources/background_mars/base.png<>uid://cef7gcw3oghnv::::res://scenes/mario.tscn<>uid://gyf3fbbummeq::::res://scenes/coin.tscn<>uid://b87aia77thlak::::res://scenes/area_shirp.tscn<>uid://11la503v53w4::::res://scenes/alien.tscn<>uid://cpt88k8j856x3::::res://resources/songs/music_mario.mp3
+mars_players2.tscn::PackedScene::9119250242128560540::1702318385::0::1::::<><>::uid://b6rejs7gk3ewf::::res://resources/background_mars/backeground_mars.png<>res://scripts/mars_players2.gd<>uid://baluui5j3qj5b::::res://resources/background_mars/base.png<>uid://cef7gcw3oghnv::::res://scenes/mario.tscn<>uid://gyf3fbbummeq::::res://scenes/coin.tscn<>uid://b87aia77thlak::::res://scenes/area_shirp.tscn<>uid://11la503v53w4::::res://scenes/alien.tscn<>uid://cpt88k8j856x3::::res://resources/songs/music_mario.mp3<>uid://ddjxpyea63c3d::::res://scenes/luigi.tscn
+meteor.tscn::PackedScene::4063307012812826897::1702302165::0::1::::<><>::uid://dnmfohl6hxxoy::::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Meteors/spaceMeteors_001.png<>res://scripts/meteor.gd<>uid://jpdfkltvhcpt::::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Meteors/spaceMeteors_002.png<>uid://0ag3ykdoxgwk::::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Meteors/spaceMeteors_003.png<>uid://dbmxhkiret8cg::::res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Meteors/spaceMeteors_004.png
+pista1.tscn::PackedScene::5732206399496273613::1702262657::0::1::::<><>::
+player_1.tscn::PackedScene::1655431739500035748::1702318385::0::1::::<><>::res://scripts/player_1.gd<>uid://c0j8gpnk2x5h0::::res://resources/enemy/PNG_Parts&Spriter_Animation/Ship6/Ship6.png
+portal.tscn::PackedScene::4755866080704898929::1702318385::0::1::::<><>::res://scripts/portal.gd<>uid://cohgttlhm7dl8::::res://resources/Planets2/Black_hole.png
+ship_luigi.tscn::PackedScene::5700387680915886916::1702318385::0::1::::<><>::uid://dxn204t7wfx76::::res://resources/sprites_mario/mario_iddle.png<>res://scripts/ship_luigi.gd<>uid://4ts0fxhqx02e::::res://resources/sprites_luigi/ship_luide_iddle.png<>uid://m3ofn7lbgbnp::::res://resources/songs/nave.mp3<>uid://cibycql1vcyh4::::res://resources/sprites_luigi/ship_luigi_piloting.png<>uid://d0s7f8kkvkx0h::::res://resources/songs/nave_running.wav
+ship_mario.tscn::PackedScene::5543773886275404330::1702318385::0::1::::<><>::res://scripts/player_1.gd<>uid://dxn204t7wfx76::::res://resources/sprites_mario/mario_iddle.png<>uid://b0wemo2m1j8s2::::res://resources/sprites_mario/mario_piloting.png<>uid://m3ofn7lbgbnp::::res://resources/songs/nave.mp3<>uid://d0s7f8kkvkx0h::::res://resources/songs/nave_running.wav
+the_end.tscn::PackedScene::8875827612166965404::1702318385::0::1::::<><>::res://scripts/the_end.gd<>uid://bo6bmdoa7wenj::::res://resources/Animated/Strip And GIF/space6_4-frames.png<>uid://cwsqd2o3id61p::::res://resources/songs/game_over.mp3
+the_end_players2.tscn::PackedScene::8903257480263441084::1702318386::0::1::::<><>::uid://bo6bmdoa7wenj::::res://resources/Animated/Strip And GIF/space6_4-frames.png<>res://scripts/the_end_players2.gd<>uid://cwsqd2o3id61p::::res://resources/songs/game_over.mp3
+winner.tscn::PackedScene::2652856572154964347::1702318385::0::1::::<><>::res://scripts/winner.gd<>uid://bo6bmdoa7wenj::::res://resources/Animated/Strip And GIF/space6_4-frames.png
+winner_luigi.tscn::PackedScene::562061743193950581::1702318386::0::1::::<><>::res://scripts/winner.gd<>uid://bo6bmdoa7wenj::::res://resources/Animated/Strip And GIF/space6_4-frames.png
+::res://scripts/::1702318359
+alien.gd::GDScript::-1::1702312703::0::1::::<>CharacterBody2D<>::
 anim_luigi.gd::GDScript::-1::1702007178::0::1::::<>CharacterBody2D<>::
-luigi.gd::GDScript::-1::1702007178::0::1::::<>CharacterBody2D<>::
-mario.gd::GDScript::-1::1702041934::0::1::::<>CharacterBody2D<>::
-player_1.gd::GDScript::-1::1701997557::0::1::::<>CharacterBody2D<>::
-alien.gd::GDScript::-1::1702052833::0::1::::<>CharacterBody2D<>::
+area_shirp.gd::GDScript::-1::1702315076::0::1::::<>Area2D<>::
+coin.gd::GDScript::-1::1702303360::0::1::::<>Area2D<>::
+init.gd::GDScript::-1::1702313399::0::1::::<>Control<>::
+luigi.gd::GDScript::-1::1702308297::0::1::::<>CharacterBody2D<>::
+mario.gd::GDScript::-1::1702303319::0::1::::<>CharacterBody2D<>::
+mars.gd::GDScript::-1::1702314211::0::1::::<>Node2D<>::
+mars_players2.gd::GDScript::-1::1702314204::0::1::::<>Node2D<>::
+meteor.gd::GDScript::-1::1702263554::0::1::::<>CharacterBody2D<>::
+networking.gd::GDScript::-1::1702226180::0::1::::<>Node<>::
+player_1.gd::GDScript::-1::1702315612::0::1::::<>CharacterBody2D<>::
+portal.gd::GDScript::-1::1702313362::0::1::::<>Area2D<>::
 ship_luigi.gd::GDScript::-1::1702007178::0::1::::<>CharacterBody2D<>::
-World_01.gd::GDScript::-1::1701997557::0::1::::<>Node2D<>::
+the_end.gd::GDScript::-1::1702304335::0::1::::<>Control<>::
+the_end_players2.gd::GDScript::-1::1702313321::0::1::::<>Control<>::
+winner.gd::GDScript::-1::1702304292::0::1::::<>Control<>::
+World_01.gd::GDScript::-1::1702318359::0::1::::<>Node2D<>::

@@ -1,0 +1,129 @@
+[gd_scene load_steps=16 format=3 uid="uid://cef7gcw3oghnv"]
+
+[ext_resource type="Texture2D" uid="uid://c62ev6db4p6f4" path="res://resources/sprites_mario/sprites_mario1.png" id="1_3l1yd"]
+[ext_resource type="Script" path="res://scripts/mario.gd" id="1_njas1"]
+[ext_resource type="Texture2D" uid="uid://b61safcvx7jod" path="res://resources/sprites_mario/mario_jumping.png" id="2_bqnr1"]
+[ext_resource type="AudioStream" uid="uid://ddy1nx1rjx36c" path="res://resources/songs/jump_mario.mp3" id="4_3bren"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bmotd"]
+atlas = ExtResource("1_3l1yd")
+region = Rect2(35, 0, 35, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8m4yv"]
+atlas = ExtResource("1_3l1yd")
+region = Rect2(420, 0, 35, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_esyoc"]
+atlas = ExtResource("1_3l1yd")
+region = Rect2(455, 0, 35, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yvhfj"]
+atlas = ExtResource("2_bqnr1")
+region = Rect2(0, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2pfvh"]
+atlas = ExtResource("2_bqnr1")
+region = Rect2(34, 0, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_htu2y"]
+atlas = ExtResource("2_bqnr1")
+region = Rect2(34, 26, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fllai"]
+atlas = ExtResource("2_bqnr1")
+region = Rect2(34, 52, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hgnx2"]
+atlas = ExtResource("2_bqnr1")
+region = Rect2(68, 52, 34, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bfo0k"]
+atlas = ExtResource("2_bqnr1")
+region = Rect2(0, 78, 34, 26)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_f7fo4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bmotd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8m4yv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_esyoc")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yvhfj")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_2pfvh")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_htu2y")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_fllai")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_hgnx2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bfo0k")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wwa08"]
+size = Vector2(15, 22)
+
+[node name="mario" type="CharacterBody2D"]
+script = ExtResource("1_njas1")
+
+[node name="anima_mario" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_f7fo4")
+animation = &"jump"
+frame_progress = 0.635351
+
+[node name="jump_mario" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_3bren")
+
+[node name="camera" type="Camera2D" parent="."]
+position = Vector2(0, -68)
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_wwa08")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_wwa08")
+
+[node name="name" type="Label" parent="."]
+offset_left = -5.0
+offset_top = -25.0
+offset_right = 41.0
+offset_bottom = -2.0
+scale = Vector2(0.238645, 0.238645)
+text = "Mario
+"
+
+[node name="coins" type="Label" parent="."]
+offset_left = -2.0
+offset_top = -19.0
+offset_right = 38.0
+offset_bottom = 4.0
+scale = Vector2(0.210201, 0.210201)
+text = "0"
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

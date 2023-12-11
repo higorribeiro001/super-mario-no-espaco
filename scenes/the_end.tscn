@@ -18,7 +18,7 @@ texture_filter = 2
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
-scale = Vector2(9.83019, 5.72727)
+scale = Vector2(6.17024, 3.59491)
 texture = ExtResource("1_moxca")
 
 [node name="Label" type="Label" parent="."]
@@ -40,9 +40,12 @@ stream = ExtResource("3_nhsde")
 
 [node name="menu" type="Button" parent="."]
 layout_mode = 0
-offset_left = 240.0
-offset_top = 120.0
-offset_right = 364.0
-offset_bottom = 151.0
+offset_left = 225.0
+offset_top = 118.0
+offset_right = 377.0
+offset_bottom = 149.0
 scale = Vector2(1.21887, 1.35543)
-text = "Menu Principal"
+text = "Tentar novamente
+"
+
+[connection signal="pressed" from="menu" to="." method="_on_menu_pressed"]

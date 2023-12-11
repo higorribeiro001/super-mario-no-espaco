@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=3 uid="uid://11la503v53w4"]
+[gd_scene load_steps=38 format=3 uid="uid://11la503v53w4"]
 
 [ext_resource type="Texture2D" uid="uid://bd3q1fclbbk4o" path="res://resources/kenney_alien-ufo-pack/alien_idle.png" id="1_3r8nj"]
 [ext_resource type="Script" path="res://scripts/alien.gd" id="1_utsf0"]
@@ -235,9 +235,6 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ma7vh"]
-size = Vector2(124, 119)
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n6mdf"]
 size = Vector2(13, 173)
 
@@ -248,10 +245,6 @@ script = ExtResource("1_utsf0")
 position = Vector2(3, 64)
 sprite_frames = SubResource("SpriteFrames_ip8oh")
 animation = &"laser"
-
-[node name="collision" type="CollisionShape2D" parent="."]
-position = Vector2(3, 3.5)
-shape = SubResource("RectangleShape2D_ma7vh")
 
 [node name="player_detector" type="Area2D" parent="."]
 visible = false

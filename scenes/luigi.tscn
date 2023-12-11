@@ -1,9 +1,10 @@
-[gd_scene load_steps=14 format=3 uid="uid://ddjxpyea63c3d"]
+[gd_scene load_steps=15 format=3 uid="uid://ddjxpyea63c3d"]
 
 [ext_resource type="Script" path="res://scripts/luigi.gd" id="1_hhsis"]
 [ext_resource type="Texture2D" uid="uid://mlgewca4udsg" path="res://resources/sprites_luigi/luigi_idle.png" id="1_mqhau"]
 [ext_resource type="Texture2D" uid="uid://dkkdbdo84f8l6" path="res://resources/sprites_luigi/luigi_jumping.png" id="2_hhgyx"]
 [ext_resource type="AudioStream" uid="uid://ddy1nx1rjx36c" path="res://resources/songs/jump_mario.mp3" id="3_j1e5p"]
+[ext_resource type="Texture2D" uid="uid://b6agku6ckno8b" path="res://resources/Mini FX, Items & UI/Common Pick-ups/Coin2.png" id="5_2yg00"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nrdgt"]
 atlas = ExtResource("1_mqhau")
@@ -86,3 +87,26 @@ shape = SubResource("RectangleShape2D_6hg2v")
 stream = ExtResource("3_j1e5p")
 
 [node name="camera" type="Camera2D" parent="."]
+position = Vector2(0, -67)
+
+[node name="name" type="Label" parent="."]
+offset_left = -11.0
+offset_top = -35.0
+offset_right = 35.0
+offset_bottom = -12.0
+scale = Vector2(0.535894, 0.535894)
+text = "Luigi
+"
+
+[node name="coins" type="Label" parent="."]
+offset_left = 1.0
+offset_top = -24.0
+offset_right = 41.0
+offset_bottom = -1.0
+scale = Vector2(0.518193, 0.518193)
+text = "0"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-6, -18)
+scale = Vector2(-0.571714, -0.571714)
+texture = ExtResource("5_2yg00")

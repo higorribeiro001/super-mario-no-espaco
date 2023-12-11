@@ -1,0 +1,55 @@
+[gd_scene load_steps=6 format=3 uid="uid://vptn3rhjxy4j"]
+
+[ext_resource type="Script" path="res://scenes/init.gd" id="1_wrhld"]
+[ext_resource type="Texture2D" uid="uid://bo6bmdoa7wenj" path="res://resources/Animated/Strip And GIF/space6_4-frames.png" id="1_x32nr"]
+[ext_resource type="Texture2D" uid="uid://p2gljec1foug" path="res://resources/title/Mario_Series_Logo.png" id="2_nei7a"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_og7f5"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_35xv3"]
+
+[node name="init" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wrhld")
+
+[node name="background" type="TextureRect" parent="."]
+texture_filter = 2
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(5.05758, 3.61904)
+texture = ExtResource("1_x32nr")
+
+[node name="title" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 260.0
+offset_top = 22.0
+offset_right = 1460.0
+offset_bottom = 584.0
+scale = Vector2(0.0765443, 0.0765443)
+texture = ExtResource("2_nei7a")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 268.0
+offset_top = 89.0
+offset_right = 346.0
+offset_bottom = 120.0
+theme_override_styles/hover = SubResource("StyleBoxEmpty_og7f5")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_35xv3")
+text = "Jogar"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 270.0
+offset_top = 141.0
+offset_right = 348.0
+offset_bottom = 172.0
+theme_override_styles/hover = SubResource("StyleBoxEmpty_og7f5")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_35xv3")
+text = "2 Players"

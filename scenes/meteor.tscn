@@ -1,0 +1,62 @@
+[gd_scene load_steps=12 format=3 uid="uid://bx5kcqhcwflr2"]
+
+[ext_resource type="Texture2D" uid="uid://dnmfohl6hxxoy" path="res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Meteors/spaceMeteors_001.png" id="1_7xp42"]
+[ext_resource type="Script" path="res://scripts/meteor.gd" id="1_fb4np"]
+[ext_resource type="Texture2D" uid="uid://jpdfkltvhcpt" path="res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Meteors/spaceMeteors_002.png" id="2_cjymn"]
+[ext_resource type="Texture2D" uid="uid://0ag3ykdoxgwk" path="res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Meteors/spaceMeteors_003.png" id="3_mnkvk"]
+[ext_resource type="Texture2D" uid="uid://dbmxhkiret8cg" path="res://resources/kenney_space-shooter-extension (1)/PNG/Sprites/Meteors/spaceMeteors_004.png" id="4_rweok"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_umbn4"]
+atlas = ExtResource("1_7xp42")
+region = Rect2(0, 0, 215, 211)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1cdpj"]
+atlas = ExtResource("2_cjymn")
+region = Rect2(0, 0, 212, 218)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3q1pa"]
+atlas = ExtResource("3_mnkvk")
+region = Rect2(0, 0, 214, 227)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4al8c"]
+atlas = ExtResource("4_rweok")
+region = Rect2(0, 0, 220, 221)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dxymd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_umbn4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1cdpj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3q1pa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4al8c")
+}],
+"loop": true,
+"name": &"moving",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0n172"]
+
+[node name="meteor" type="CharacterBody2D"]
+script = ExtResource("1_fb4np")
+
+[node name="anim" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.270517, 0.270517)
+sprite_frames = SubResource("SpriteFrames_dxymd")
+animation = &"moving"
+
+[node name="Area2D" type="Area2D" parent="."]
+scale = Vector2(0.255461, 0.255461)
+
+[node name="collision" type="CollisionShape2D" parent="Area2D"]
+scale = Vector2(11.4527, -11.4971)
+shape = SubResource("CircleShape2D_0n172")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
